@@ -74,13 +74,13 @@
    .display_button{
     font-size: 0.8em;
     margin: 5px 15px;
-    padding: 0.2em 0.313em;
+    padding: 0.18em 0.313em;
  }
  
  .button{
     background-color: gray;
     border: none;
-    padding: 0.125em 0.5em;
+    padding: 0.125em 0.58em;
     color: white;
     font-size: 0.9em; 
     font-weight: bold;
