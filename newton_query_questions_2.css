@@ -251,7 +251,8 @@
    
     main h2{
       font-size: 1.7em;
-      margin-bottom: 8px;
+      font-family: serif;
+      margin: 8px auto;
  }  
     main p{
       font-size: 1em;
