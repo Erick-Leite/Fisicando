@@ -7,6 +7,10 @@
    header h1{
       font-size: 1.4em;
  }
+
+   nav{
+      height: 20px;
+   }
    
    main{
       padding: 8px;
