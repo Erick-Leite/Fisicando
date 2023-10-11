@@ -1,5 +1,31 @@
 @charset 'UFT-8';
 
+
+@media(min-width:320px){
+   header{
+      padding: 15px;
+    }
+   
+   nav{
+       height: 6px;
+   }
+   
+   
+   .display_button{
+    padding: 0.14em 0.313em;
+ }
+ 
+ .button{
+    padding: 0.125em 0.65em;
+    border-radius: 5px;
+}
+ 
+    
+}
+
+
+
+
 @media(min-width:360px){
    header{
       padding: 15px;
