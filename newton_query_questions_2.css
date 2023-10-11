@@ -242,6 +242,7 @@
     main h2{
       font-size: 1.7em;
       font-family: serif;
+      margin: 8px auto;
  }  
     main p{
       text-align: justify;
@@ -249,7 +250,7 @@
  }
     main ul li{
     font-size: 1em;
-    margin: 3px 12px;
+    margin: 5px 12px;
     
  } 
   
@@ -305,4 +306,10 @@
     font-size: 1.1em;
  }
    
+}
+
+@media(min-width:980px){
+    main{
+        max-width: 760px;
+    }
 }
