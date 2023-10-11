@@ -308,14 +308,93 @@
    
 }
 
+
 @media(min-width:980px){
     main{
         max-width: 760px;
     }
 }
 
-@media(min-width:1440px){
-    main{
-        max-width: 1000px;
-    }
+
+@media(min-width:1024px){
+    header{
+      padding: 35px;
+ }
+    
+    header h1{
+      font-size: 2.1em;
+ }
+   
+   main{
+      display: flex;
+      flex-direction: column;
+      max-width: 780px;
+ }   
+    main h2{
+      font-size: 1.8em;
+      font-family: serif;
+      margin: 8px auto;
+ }  
+    main p{
+      text-align: justify;
+      font-size: 1.2em;
+ }
+    main ul li{
+    font-size: 1.1em;
+    margin: 5px 12px;
+    
+ } 
+  
+   .perguntas{
+    border: 1.1px solid #ccc;
+    
+ } 
+   .perguntas h3{
+    margin: 4px 4px;
+    font-size: 1.4em;
+ } 
+   .perguntas p{
+    margin: 7px 8px;
+    font-size: 1.2em;
+ } 
+   .perguntas ul li{
+    font-size: 1.1em;
+ }
+ 
+   .respostas p{
+       font-size: 1.2em;
+ }
+   .calculation{
+       font-size: 1.1em;
+ }
+   details{
+       font-size: 1.2em;
+ }
+   details a{
+      font-size: 1.1em;
+ }
+   
+   
+   .display_button{
+    font-size: 1.3em;
+    margin: 5px 15px;
+    padding: 0.14em 0.5em;
+ }
+ 
+ 
+ .button{
+    background-color: gray;
+    border: none;
+    padding: 0.18em 0.7em;
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 4px 5px;
+    border-radius: 5px;
+ }
+
+ .resultado{
+    font-size: 1.2em;
+ }
+ 
 }
