@@ -226,79 +226,39 @@
 
 
 @media(min-width:768px){
-    header{
+   /* header{
       padding: 30px;
-    }
+    }*/
+    /*
     header h1{
       font-size: 2em;
- }
-    header{
-      padding: 20px;
-    }
-    nav{
-      height: 20px;
-    }
+ }*/
    
    main{
       display: flex;
       flex-direction: column;
-      padding: 9px;
-      padding-bottom: 44px;
       max-width: 660px;
    }
    
-    main h2{
+   /* main h2{
       font-size: 1.8em;
       font-family: serif;
-      margin: 8px auto;
- }  
+ }  */
     main p{
-      font-size: 0.85em;
       text-align: justify;
-      margin-bottom: 8px;
- } 
-    main ul li{
-      font-size: 0.80em;
-      margin: 5px 12px;
-    
- } 
-    main ul li:last-child{
-      margin-bottom: 10px;
  }
   
    .perguntas{
-    background-color: #f0f0f0;
     border: 1.1px solid #ccc;
-    padding: 3px;
-    margin: 3px;
  } 
    .perguntas h3{
-    font-size: 1.15em;
-    color: #333;
     margin: 4px 4px;
  } 
    .perguntas p{
-    font-size: 0.9em;
-    color: #202020;
-    margin: 5px 8px;
-    font-weight: 400;
     margin: 7px 8px;
  } 
    .perguntas ul li{
-    font-size: 0.85em;
- }
-   
-   .respostas p{
-       font-size: 0.9em;
- }
-   .calculation{
-       font-size: 0.9em;
- }
-   details{
-       font-size: 1em;
- }
-   details a{
-      font-size: 0.9em;
+  
  }
    
    .display_button{
@@ -319,23 +279,13 @@
  }
 
 .resultado{
-    font-size: 1.5em;
-    color: green;
-    font-weight: bold;
-    text-align: center;
+    
  }
    
 }
 
-
-@media(min-width:980px){
-   header h1{
-       font-size: 2.1em;
-   }
-   
-   main h2{
-       font-size: 1.9em;
-   }
+/*
+@media(min-width:980px){ 
    main{
       display: flex;
       flex-direction: column;
@@ -343,17 +293,17 @@
    }
    
    .display_button{
-    font-size: 1.6em;
+    font-size: 1.5em;
     margin: 5px 15px;
     padding: 0.14em 0.5em ;
  }
  
  .button{
     padding: 0.35em;
-    font-size: 1.6em;
+    font-size: 1.5em;
     margin: 4px 5px;
     border-radius: 5px;
  }
    
 }
-
+*/
