@@ -226,43 +226,51 @@
 
 
 @media(min-width:768px){
-   /* header{
+    header{
       padding: 30px;
-    }*/
-    /*
+ }
+    
     header h1{
       font-size: 2em;
- }*/
+ }
    
    main{
       display: flex;
       flex-direction: column;
       max-width: 660px;
-   }
-   
-   /* main h2{
-      font-size: 1.8em;
+   }   
+    main h2{
+      font-size: 1.7em;
       font-family: serif;
- }  */
+ }  
     main p{
       text-align: justify;
+      font-size: 1.1em;
  }
+    main ul li{
+    font-size: 1em;
+    margin: 3px 12px;
+    
+ } 
   
    .perguntas{
     border: 1.1px solid #ccc;
+    
  } 
    .perguntas h3{
     margin: 4px 4px;
+    font-size: 1.3em;
  } 
    .perguntas p{
     margin: 7px 8px;
+    font-size: 1.1em;
  } 
    .perguntas ul li{
-  
+    font-size: 1.05em;
  }
    
    .display_button{
-    font-size: 1.1em;
+    font-size: 1.2em;
     margin: 5px 15px;
     padding: 0.14em 0.5em;
  }
@@ -273,38 +281,14 @@
     border: none;
     padding: 0.18em 0.7em;
     color: white;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: bold;
     margin: 4px 5px;
     border-radius: 5px;
 }
 
  .resultado{
-    
+    font-size: 1.1em;
  }
    
 }
-
-/*
-@media(min-width:980px){ 
-   main{
-      display: flex;
-      flex-direction: column;
-      max-width: 750px;
-   }
-   
-   .display_button{
-    font-size: 1.5em;
-    margin: 5px 15px;
-    padding: 0.14em 0.5em ;
- }
- 
- .button{
-    padding: 0.35em;
-    font-size: 1.5em;
-    margin: 4px 5px;
-    border-radius: 5px;
- }
-   
-}
-*/
