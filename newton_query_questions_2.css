@@ -7,16 +7,16 @@
     }
    
    nav{
-       height: 6px;
+       height: 5px;
    }
    
    
    .display_button{
-    padding: 0.14em 0.313em;
+    padding: 0.12em 0.313em;
  }
  
  .button{
-    padding: 0.125em 0.65em;
+    padding: 0.125em 0.75em;
     border-radius: 5px;
 }
  
