@@ -1,108 +1,11 @@
 @charset 'UFT-8';
 
-/*
-@media(min-width:320px){
-    header{
-       padding: 15px;
-    }
-    header h1{
-       font-size: 1.2em;
- }
-   
-   nav{
-       height: 20px;
-   }
-   
-   main{
-      padding: 7px;
-      padding-bottom: 30px;
-   }
-   
-    main h2{
-    font-size: 1.15em;
-    margin-bottom: 7px;
- }  
-    main p{
-    font-size: 0.8em;
-    margin-bottom: 7px;
- } 
-    main ul li{
-    font-size: 0.75em;
-    margin: 3px 12px;
-    
- } 
-    main ul li:last-child{
-    margin-bottom: 10px;
- }
-  
-   .perguntas{
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    padding: 3px;
-    margin: 3px;
- } 
-   .perguntas h3{
-    font-size: 1.1em;
-    color: #333;
-    margin: 4px 4px;
- } 
-   .perguntas p{
-    font-size: 0.8em;
-    color: #202020;
-    margin: 5px 8px;
-    font-weight: 400;
-    margin: 7px 8px;
- } 
-   .perguntas ul li{
-    font-size: 0.8em;
- }
-   
-   .respostas p{
-       font-size: 0.8em;
-   }
-   .calculation{
-       font-size: 0.8em;
-   }
-   details{
-       font-size: 0.9em;
-       line-height: ;
-   }
-   details a{
-      font-size: 0.9em;
-      padding: 1px;
-      line-height: 1px;
-   }
- 
-   .display_button{
-    font-size: 0.8em;
-    margin: 5px 15px;
-    padding: 2.8px 5px;
- }
- 
- .button{
-    background-color: gray;
-    border: none;
-    padding: 3px 8px;
-    color: white;
-    font-size: 0.8em;
-    font-weight: bold;
-    margin: 4px 5px;
-    border-radius: 5px;
-}
-
-.resultado{
-    font-size: 0.9em;
-    color: green;
-    font-weight: bold;
-    text-align: center;
-}
- 
-}
-*/
-
 @media(min-width:360px){
-    header h1{
-    font-size: 1.4em;
+   header{
+      padding: 15px;
+    }
+   header h1{
+      font-size: 1.4em;
  }
    
    main{
@@ -113,6 +16,7 @@
     main h2{
     font-size: 1.3em;
     margin-bottom: 8px;
+    text-indent: 3px;
  }  
     main p{
     font-size: 0.95em;
