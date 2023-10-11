@@ -1,5 +1,6 @@
 @charset 'UFT-8';
 
+/*
 @media(min-width:320px){
     header{
        padding: 15px;
@@ -97,7 +98,7 @@
 }
  
 }
-
+*/
 
 @media(min-width:360px){
     header h1{
@@ -114,11 +115,11 @@
     margin-bottom: 8px;
  }  
     main p{
-    font-size: 0.9em;
+    font-size: 0.95em;
     margin-bottom: 8px;
  } 
     main ul li{
-    font-size: 0.85em;
+    font-size: 0.9em;
     margin: 3px 12px;
     
  } 
@@ -133,12 +134,12 @@
     margin: 3px;
  } 
    .perguntas h3{
-    font-size: 1.1em;
+    font-size: 1.15em;
     color: #333;
     margin: 4px 4px;
  } 
    .perguntas p{
-    font-size: 0.9em;
+    font-size: 0.95em;
     color: #202020;
     margin: 5px 8px;
     font-weight: 400;
@@ -149,16 +150,11 @@
  }
    
    .respostas p{
-       font-size: 0.9em;
+       font-size: 0.95em;
    }
    .calculation{
-       font-size: 0.9em;
+       font-size: 0.93em;
    }
-   .respostas pre{
-    font-size: 1em;
-    border-radius: 5px;
-    margin-left: 8px;
- }
    details{
        font-size: 1em;
    }
@@ -169,7 +165,7 @@
    .display_button{
     font-size: 0.8em;
     margin: 5px 15px;
-    padding: 3px 5px;
+    padding: 3.2px 5px;
  }
  
  .button{
@@ -179,12 +175,12 @@
     color: white;
     font-size: 0.9em; 
     font-weight: bold;
-    margin: 4px 5px;
+    margin: 4.5px 5px;
     border-radius: 5px;
 }
 
 .resultado{
-    font-size: 0.9em;
+    font-size: 1em;
     color: green;
     font-weight: bold;
     text-align: center;
