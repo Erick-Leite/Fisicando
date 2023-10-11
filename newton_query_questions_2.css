@@ -226,125 +226,103 @@
 
 
 
-/*
+
 @media(min-width:768px){
+    header{
+      padding: 20px;
+    }
     header h1{
-    font-size: 2em;
+      font-size: 2em;
  }
+    header{
+      padding: 20px;
+    }
+    nav{
+      height: 25px;
+    }
    
    main{
-       display: flex;
-       flex-direction: column;
-       padding: 10px;
-       padding-bottom: 40px;   
-       max-width: 660px;
-       
+      padding: 9px;
+      padding-bottom: 44px;
+      max-width: 660px;
    }
    
     main h2{
-    font-size: 1.7em;
-    margin-bottom: 10px;
-    text-indent: 10px;    
- }     
+      font-size: 1.8em;
+      margin-bottom: 8px;
+ }  
     main p{
-    font-size: 1.2em;
-    margin-bottom: 10px;
+      font-size: 1.05em;
+      margin-bottom: 8px;
  } 
     main ul li{
-    font-size: 1.1em;
-    margin: 5px 15px;
+      font-size: 0.9em;
+      margin: 3px 12px;
     
- }      
+ } 
     main ul li:last-child{
-    margin-bottom: 12px;
- }   
+      margin-bottom: 10px;
+ }
   
    .perguntas{
     background-color: #f0f0f0;
-    border: 1.2px solid #ccc;
+    border: 1.1px solid #ccc;
     padding: 3px;
-    margin: 4px;
+    margin: 3px;
  } 
    .perguntas h3{
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: #333;
-    margin: 5px 5px;
+    margin: 4px 4px;
  } 
    .perguntas p{
-    font-size: 1.1em;
+    font-size: 0.95em;
     color: #202020;
     margin: 5px 8px;
     font-weight: 400;
     margin: 7px 8px;
  } 
    .perguntas ul li{
-    font-size: 1.1em;
+    font-size: 0.9em;
  }
    
    .respostas p{
-       font-size: ;
-   }
-   .respostas pre{
-    font-size: 1.3em;
-    border-radius: 5px;
-    margin-left: 8px;
+       font-size: 0.95em;
  }
-    details{
-       font-size: 1.2em;
-       margin: 2px 0px;
-   }
+   .calculation{
+       font-size: 1.1em;
+ }
+   details{
+       font-size: 1.1em;
+ }
    details a{
       font-size: 1em;
-      padding: 2px;
-   }
- 
+ }
+   
    .display_button{
-    font-size: 1.08em;
+    font-size: 1.1em;
     margin: 5px 15px;
-    padding: 4px 6px;
+    padding: 0.14em 0.5em ;
  }
  
  .button{
     background-color: gray;
     border: none;
-    padding: 4px 0px;
+    padding: 0.18em 0.7em;
     color: white;
     font-size: 1.2em;
     font-weight: bold;
     margin: 4px 5px;
     border-radius: 5px;
-}
+ }
 
 .resultado{
-    font-size: 1.1em;
+    font-size: 1em;
     color: green;
     font-weight: bold;
     text-align: center;
-}
- 
-    
-}
-*/
-
-
-@media(min-width:768px){
-    header h1{
-    
  }
    
-   main{
-       display: flex;
-       flex-direction: column;
-       max-width: 660px;
-       
-   }
-    
-         
-   .display_button{
-    padding: 6px 0px;
- }
- 
-  
 }
 
 
