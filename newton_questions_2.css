@@ -120,6 +120,10 @@ input[type=radio]{
     font-style: italic;
     font-weight: 500;
 }
+.calculation ul .number{
+    font-style: normal;
+    color: rgba(0,0,0,0.7);
+}
 .calculation details summary{
     margin: 5px auto;
 }
