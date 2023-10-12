@@ -190,6 +190,12 @@
    .calculation{
        font-size: 1.1em;
    }
+   .calculation{
+       font-size: 1em;
+   }
+   .calculation ul li{
+       font-size: 0.9em;
+   }
    details{
        font-size: 1.1em;
    }
