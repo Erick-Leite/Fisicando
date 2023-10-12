@@ -188,13 +188,16 @@
        font-size: 0.95em;
    }
    .calculation{
-       font-size: 1.1em;
+       font-size: 1.08em;
    }
-   .calculation{
-       font-size: 1em;
+   .calculation details{
+       margin-bottom: 7px;
+   }
+   .calculation summary{
+       font-size: 0.94em;
    }
    .calculation ul li{
-       font-size: 0.9em;
+       font-size: 0.94em;
    }
    details{
        font-size: 1.1em;
