@@ -707,7 +707,7 @@
        font-size: 1.3em;
  }
    details{
-       font-size: 1.4em;
+       font-size: 1.5em;
  }
    details a{
       font-size: 1.3em;
@@ -734,6 +734,91 @@
 
  .resultado{
     font-size: 1.4em;
+ }
+    
+}
+
+
+@media(min-width:1920px){
+    header{
+      padding: 30px;
+ }
+    
+    header h1{
+      font-size: 2.4em;
+ }
+   
+   main{
+      display: flex;
+      flex-direction: column;
+      max-width: 1200px;
+ }   
+    main h2{
+      font-size: 3.5em;
+      font-family: serif;
+      margin: 8px auto;
+ }  
+    main p{
+      text-align: justify;
+      font-size: 1.7em;
+ }
+    main ul li{
+    font-size: 1.6em;
+    margin: 5px 12px;
+    
+ } 
+  
+   .perguntas{
+    border: 1.2px solid #ccc;
+    box-shadow: 0px 0px 2.5px #0000008a;
+    
+ } 
+   .perguntas h3{
+    margin: 4px 4px;
+    font-size: 1.9em;
+ } 
+   .perguntas p{
+    margin: 7px 8px;
+    font-size: 1.7em;
+ } 
+   .perguntas ul li{
+    font-size: 1.6em;
+ }
+ 
+   .respostas p{
+       font-size: 1.7em;
+ }
+   .calculation{
+       font-size: 1.6em;
+ }
+   details{
+       font-size: 1.8em;
+ }
+   details a{
+      font-size: 1.6em;
+ }
+   
+   
+   .display_button{
+    font-size: 1.8em;
+    margin: 5px 15px;
+    padding: 0.14em 0.5em;
+ }
+ 
+ 
+ .button{
+    background-color: gray;
+    border: none;
+    padding: 0.18em 0.7em;
+    color: white;
+    font-size: 1.9em;
+    font-weight: bold;
+    margin: 4px 5px;
+    border-radius: 5px;
+ }
+
+ .resultado{
+    font-size: 1.7em;
  }
     
 }
