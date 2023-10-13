@@ -860,12 +860,12 @@
    .calculation details p{
        font-size: 0.6em;
    }
-   .calculation details details summary{
+   /*.calculation details details summary{
        font-size: 0.3em;
    }
    .calculation details details p{
        font-size: 0.3em;
-   }
+   }*/
    details{
        font-size: 1.9em;
  }
