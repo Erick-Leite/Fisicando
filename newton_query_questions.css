@@ -196,6 +196,9 @@
    .calculation summary{
        font-size: 0.9em;
    }
+   .calculation ul{
+       max-width: 95%;
+   }
    .calculation ul li{
        font-size: 0.9em;
    }
