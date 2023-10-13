@@ -851,7 +851,7 @@
        max-width: 70%;
    }
    .calculation ul li{
-       font-size: 1em;
+       font-size: 0.6em;
        margin: 7px auto;
    }
    .calculation ul li:last-child{
