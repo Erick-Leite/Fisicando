@@ -837,18 +837,19 @@
        font-size: 1.7em;
  }
    .calculation{
-       justify-content: center;
        font-size: 1.6em;
  }
    .calculation summary{
        font-size: 0.6em;
    }
    .calculation ul{
-       max-width: 60%;
+       display: block;
+       margin: auto auto;
+       max-width: 70%;
    }
    .calculation ul li{
        font-size: 0.5em;
-       margin: auto 10px;
+       margin: 7px auto;
    }
    details{
        font-size: 1.9em;
