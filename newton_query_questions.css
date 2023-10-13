@@ -839,6 +839,9 @@
    .calculation{
        font-size: 1.6em;
  }
+   .calculation div{
+       margin-left: 5%;
+   }
    .calculation summary{
        font-size: 0.6em;
    }
@@ -848,8 +851,20 @@
        max-width: 70%;
    }
    .calculation ul li{
-       font-size: 0.5em;
+       font-size: 1em;
        margin: 7px auto;
+   }
+   .calculation ul li:last-child{
+       margin-bottom: 9px;
+   }
+   .calculation details p{
+       font-size: 0.6em;
+   }
+   .calculation details details summary{
+       font-size: 0.3em;
+   }
+   .calculation details details p{
+       font-size: 0.3em;
    }
    details{
        font-size: 1.9em;
