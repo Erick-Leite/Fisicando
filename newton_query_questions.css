@@ -848,14 +848,14 @@
    .calculation ul{
        display: block;
        margin: auto auto;
-       max-width: 70%;
+       max-width: 80%;
    }
    .calculation ul li{
        font-size: 0.6em;
-       margin: 7px auto;
+       margin: 10px auto;
    }
    .calculation ul li:last-child{
-       margin-bottom: 9px;
+       margin-bottom: 12px;
    }
    .calculation details p{
        font-size: 0.5em;
