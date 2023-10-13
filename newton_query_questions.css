@@ -840,7 +840,8 @@
        font-size: 0.6em;
    }
    .calculation ul li{
-       font-size: 0.6em;
+       font-size: 0.5em;
+       margin: auto 10px;
    }
    details{
        font-size: 1.9em;
