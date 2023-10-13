@@ -194,10 +194,10 @@
        margin-bottom: 7px;
    }
    .calculation summary{
-       font-size: 1em;
+       font-size: 0.9em;
    }
    .calculation ul li{
-       font-size: 1em;
+       font-size: 0.9em;
    }
    details{
        font-size: 1.1em;
@@ -285,12 +285,12 @@
    .calculation{
        font-size: 1.05em;
    }
-  /* .calculation summary{
+   .calculation summary{
        font-size: 0.95em;
    }
    .calculation ul li{
        font-size: 0.95em;
-   }*/
+   }
    details{
        font-size: 1.1em;
    }
@@ -382,12 +382,12 @@
    .calculation{
        font-size: 1.1em;
  }
- /*  .calculation summary{
+   .calculation summary{
        font-size: 1em;
    }
    .calculation ul li{
        font-size: 1em;
-   }*/
+   }
    details{
        font-size: 1.2em;
  }
@@ -472,12 +472,12 @@
    .calculation{
        font-size: 1.15em;
  }
- /*  .calculation summary{
+   .calculation summary{
        font-size: 1.05em;
    }
    .calculation ul li{
        font-size: 1.05em;
-   }*/
+   }
    details{
        font-size: 1.25em;
  }
@@ -563,12 +563,12 @@
    .calculation{
        font-size: 1.2em;
  }
- /*  .calculation summary{
+   .calculation summary{
        font-size: 1.1em;
    }
    .calculation ul li{
        font-size: 1.1em;
-   }*/
+   }
    details{
        font-size: 1.3em;
  }
@@ -654,12 +654,12 @@
    .calculation{
        font-size: 1.25em;
  }
- /*  .calculation summary{
+   .calculation summary{
        font-size: 1.5em;
    }
    .calculation ul li{
        font-size: 1.5em;
-   }*/
+   }
    details{
        font-size: 1.35em;
  }
@@ -745,12 +745,12 @@
    .calculation{
        font-size: 1.3em;
  }
-  /* .calculation summary{
+   .calculation summary{
        font-size: 1em;
    }
    .calculation ul li{
        font-size: 1em;
-   }*/
+   }
    details{
        font-size: 1.5em;
  }
@@ -836,12 +836,12 @@
    .calculation{
        font-size: 1.6em;
  }
-  /* .calculation summary{
+   .calculation summary{
        font-size: 0.8em;
    }
    .calculation ul li{
        font-size: 0.8em;
-   }*/
+   }
    details{
        font-size: 1.9em;
  }
