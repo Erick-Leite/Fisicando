@@ -837,6 +837,9 @@
        font-size: 1.7em;
  }
    .calculation{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
        font-size: 1.6em;
  }
    .calculation summary{

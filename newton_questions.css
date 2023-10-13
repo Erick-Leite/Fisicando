@@ -105,7 +105,9 @@ input[type=radio]{
     font-weight: 400;
 }
 .calculation{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: white;
     padding: 5px;
     color: #181818;
