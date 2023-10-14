@@ -1,24 +1,34 @@
 @charset 'UFT-8';
 
 
-@media(min-width:320px){
+@media(max-width:359px){
    header{
-      padding: 15px;
-    }
+      padding: 14px;
+ }
+    header h1{
+      font-size: 1.3em;
+ }
    
    nav{
-       height: 10px;
+       height: 9.5px;
    }
    
-   .display_button{
-    padding: 0.12em 0.313em;
+   main h2{
+      font-size: 1.2em;
+      margin-bottom: 8px;
+ } 
+ 
+ .display_button{
+      font-size: 0.78em;
+      margin: 5px 15px;
+      padding: 0.18em 0.313em;
  }
  
- .button{
-    padding: 0.125em 0.75em;
-    border-radius: 5px;
+   .button{
+      padding: 0.125em 0.58em;
+      font-size: 0.88em; 
+      margin: 4.5px 5px;
 }
- 
     
 }
 
