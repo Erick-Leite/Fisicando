@@ -35,22 +35,29 @@ nav{
 
 main{
     margin: 0 auto;
+    padding: 9px;
+    padding-bottom: 44px;
+    max-width: 600px;
 }
 main h2{
-    /*font-size: 1.5em;*/
+    font-size: 1.55em;
     color: #333;
     margin-bottom: 10px;
     text-indent: 3.1px;
+    font-size: 1.55em;
+    margin-bottom: 8px;
 }
 main p{
-    /*font-size: 1.1em;*/
+    font-size: 1.03em;
     color: #666;
     margin-bottom: 10px;
+    font-size: 1.03em;
+    margin-bottom: 8px;
 }
 main ul li{
-    /*font-size: 1em;*/
+    font-size: 0.91em;
     color: rgba(0,0,0,0.9);
-    margin: 5px 16px;
+    margin: 3.5px 12px;
     
 }
 main ul li:last-child{
@@ -60,22 +67,23 @@ main ul li:last-child{
 
 .perguntas{
     background-color: #f0f0f0;
-    border: 1px solid #ccc;
+    border: 1.1px solid #ccc;
     padding: 3px;
     margin: 3px;
     box-shadow: 0px 0px 2px #0000008a;
 }
 .perguntas h3{
-    /*font-size: 1.2em;*/
+    font-size: 1.2em;
     color: #333;
-    margin: 5px 5px;
+    margin: 4px 4px;
 }
 
 .perguntas p{
-    /*font-size: 1em;*/
+    font-size: 0.95em;
     color: #202020;
     margin: 5px 8px;
     font-weight: 400;
+    margin: 7px 8px;
 }
 .perguntas p strong{
     font-weight: 500;
@@ -85,7 +93,7 @@ main ul li:last-child{
     list-style: none;
 }
 .perguntas ul li{
-    /*font-size: 1em;*/
+    font-size: 0.9em;
     margin-bottom: 5px;
 }
 
@@ -101,23 +109,52 @@ input[type=radio]{
     padding: 8px;
 }
 .respostas p{
-    /*font-size: 1em;*/
+    font-size: 0.95em;
     color: #3e3e3e;
     font-weight: 400;
 }
 .calculation{
+    font-size: 0.95em;
     background-color: white;
     padding: 5px;
     color: #181818;
     border-radius: 7px;
 }
+.calculation div{
+    padding-left: 5px;
+   }
+.calculation p{
+    font-size: 0.85em;
+   }
+.calculation details{
+    margin: 8px 0px;
+   }
+.calculation summary{
+    font-size: 0.895em;
+   }
+.calculation details p{
+    font-size: 0.93em;
+   }
+.calculation details details summary{
+    font-size: 0.82em;
+   }
+.calculation details details p{
+    font-size: 0.82em;
+    margin: 9px 10px 0px 12px;
+   }
 .calculation ul{
+    max-width: 100%;
     list-style: none;
 }
 .calculation ul li{
+    font-size: 0.91em;
+    margin: 6px 0px;
     color: #181818;
     overflow-wrap: break-word;
 }
+.calculation ul li:last-child{
+       margin-bottom: 12px;
+   }
 .calculation ul strong{
     font-style: italic;
     font-weight: 500;
@@ -131,11 +168,17 @@ input[type=radio]{
     font-weight: 500;
     color: rgba(0,0,0,0.8);
 }
+details{
+       font-size: 1.1em;
+}
+   details summary{
+       margin-bottom: 4px;
+}
+
 details a{
-    /*line-height: 8px;*/
+    font-size: 0.95em;
+    margin: 8px 17px;
     text-decoration: none;
-    /*font-size: 1em;*/
-    margin-left: 16px;
     color: #0003ffe5;
     cursor: pointer;
 }
@@ -151,14 +194,14 @@ details a{
 
 
 .display_button{
+    font-size: 1.07em;
+    margin: 5px 15px;
+    padding: 0.12em 0.4em;
     cursor: pointer;
     background-color: #666;
-    /*font-size: 0.8em;*/
     font-weight: bold;
-    margin: 5px 15px;
     color: #f4f4f4;
     border: none;
-    padding: 3px 4px;
 }
 .display_button:hover{
     background-color: #555;
@@ -172,19 +215,19 @@ details a{
 }
 
 .button{
-    background-color: gray;
-    cursor: pointer;
-    border: none;
-   /* padding: 3px 10px; */
+    font-size: 1.17em;
+    padding: 0.17em 0.6em;
     color: white;
-   /* font-size: 1.1em;*/
     font-weight: bold;
     margin: 4px 5px;
     border-radius: 5px;
+    background-color: gray;
+    cursor: pointer;
+    border: none;
 }
 
 .resultado{
-    /*font-size: 1em;*/
+    font-size: 1em;
     color: green;
     font-weight: bold;
     text-align: center;
