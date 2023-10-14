@@ -188,10 +188,10 @@
        font-size: 0.95em;
    }
    .calculation{
-       font-size: 0.95em;
+       font-size: 0.9em;
    }
    .calculation p{
-       font-size: 0.9em;
+       font-size: 0.85em;
    }
    .calculation details{
        margin: 8px 0px;
@@ -200,13 +200,13 @@
        font-size: 0.89em;
    }
    .calculation details p{
-       font-size: 0.92em;
+       font-size: 0.95em;
    }
     .calculation details details summary{
        font-size: 0.82em;
    }
    .calculation details details p{
-       font-size: 0.81em;
+       font-size: 0.82em;
        padding: 7.5px;
        margin: 9px 0px;
    }
@@ -214,13 +214,14 @@
        max-width: 100%;
    }
    .calculation ul li{
-       font-size: 1em;
+       font-size: 0.94em;
    }
    details{
        font-size: 1.1em;
    }
    details a{
-      font-size: 1em;
+      font-size: 0.95em;
+      margin: 8px 17px;
    }
    
    .display_button{
