@@ -48,7 +48,7 @@ main p{
 }
 main ul li{
     /*font-size: 1em;*/
-    color: black;
+    color: rgba(0,0,0,0.9);
     margin: 5px 16px;
     
 }

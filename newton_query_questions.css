@@ -136,7 +136,7 @@
         padding: 20px;
     }
     nav{
-        height: 25px;
+        height: 23px;
     }
    
    main{
@@ -146,16 +146,16 @@
    }
    
     main h2{
-    font-size: 1.6em;
+    font-size: 1.55em;
     margin-bottom: 8px;
  }  
     main p{
-    font-size: 1.05em;
+    font-size: 1.03em;
     margin-bottom: 8px;
  } 
     main ul li{
-    font-size: 0.9em;
-    margin: 3px 12px;
+    font-size: 0.91em;
+    margin: 3.5px 12px;
     
  } 
     main ul li:last-child{
@@ -188,7 +188,10 @@
        font-size: 0.95em;
    }
    .calculation{
-       font-size: 0.9em;
+       font-size: 0.95em;
+   }
+   .calculation div{
+       padding-left: 5px;
    }
    .calculation p{
        font-size: 0.85em;
@@ -197,27 +200,33 @@
        margin: 8px 0px;
    }
    .calculation summary{
-       font-size: 0.89em;
+       font-size: 0.895em;
    }
    .calculation details p{
-       font-size: 0.95em;
+       font-size: 0.93em;
    }
     .calculation details details summary{
        font-size: 0.82em;
    }
    .calculation details details p{
        font-size: 0.82em;
-       padding: 7.5px;
-       margin: 9px 0px;
+       margin: 9px 10px 0px 12px;
    }
    .calculation ul{
        max-width: 100%;
    }
    .calculation ul li{
-       font-size: 0.94em;
+       font-size: 0.91em;
+       margin: 6px 0px;
+   }
+   .calculation ul li:last-child{
+       margin-bottom: 12px;
    }
    details{
        font-size: 1.1em;
+   }
+   details summary{
+       margin-bottom: 4px;
    }
    details a{
       font-size: 0.95em;
