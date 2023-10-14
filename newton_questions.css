@@ -16,7 +16,8 @@ body{
 
 header{
     background-color: #f0f0f0;
-    padding: 20px;
+    /*padding: 20px;*/
+    padding: 1.2em;
     text-align: center;
 }
 header h1{
@@ -28,7 +29,8 @@ header h1{
 
 nav{
    display: block;
-   height: 30px;
+   /*height: 30px;*/
+   height: 1.4em;
    background-color: #333;
 }
 

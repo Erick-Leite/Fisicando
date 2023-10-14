@@ -125,16 +125,13 @@
 
 @media(min-width:410px){
     header{
-      padding: 20px;
+      padding: 1.2em;
     }
     header h1{
       font-size: 1.9em;
  }
-    header{
-      padding: 20px;
-    }
     nav{
-      height: 23px;
+      height: 1.4em;
     }
    
    main{
