@@ -127,6 +127,8 @@ input[type=radio]{
 }
 .calculation details summary{
     margin: 5px auto;
+    font-weight: 500;
+    color: rgba(0,0,0,0.8);
 }
 details a{
     /*line-height: 8px;*/
