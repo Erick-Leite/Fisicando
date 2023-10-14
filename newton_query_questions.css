@@ -10,7 +10,6 @@
        height: 10px;
    }
    
-   
    .display_button{
     padding: 0.12em 0.313em;
  }
@@ -44,43 +43,42 @@
    }
    
     main h2{
-    font-size: 1.3em;
-    margin-bottom: 8px;
-    text-indent: 3px;
+      font-size: 1.3em;
+      margin-bottom: 8px;
  }  
     main p{
-    font-size: 0.95em;
-    margin-bottom: 8px;
+      font-size: 0.95em;
+      margin-bottom: 8px;
  } 
     main ul li{
-    font-size: 0.9em;
-    margin: 3px 12px;
+      font-size: 0.9em;
+      margin: 3px 12px;
     
  } 
     main ul li:last-child{
-    margin-bottom: 10px;
+      margin-bottom: 10px;
  }
   
    .perguntas{
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    padding: 3px;
-    margin: 3px;
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      padding: 3px;
+      margin: 3px;
  } 
    .perguntas h3{
-    font-size: 1.15em;
-    color: #333;
-    margin: 4px 4px;
+      font-size: 1.15em;
+      color: #333;
+      margin: 4px 4px;
  } 
    .perguntas p{
-    font-size: 0.95em;
-    color: #202020;
-    margin: 5px 8px;
-    font-weight: 400;
-    margin: 7px 8px;
+      font-size: 0.95em;
+      color: #202020;
+      margin: 5px 8px;
+      font-weight: 400;
+      margin: 7px 8px;
  } 
    .perguntas ul li{
-    font-size: 0.9em;
+      font-size: 0.9em;
  }
    
    .respostas p{
@@ -98,27 +96,27 @@
    }
    
    .display_button{
-    font-size: 0.8em;
-    margin: 5px 15px;
-    padding: 0.18em 0.313em;
+      font-size: 0.8em;
+      margin: 5px 15px;
+      padding: 0.18em 0.313em;
  }
  
- .button{
-    background-color: gray;
-    border: none;
-    padding: 0.125em 0.58em;
-    color: white;
-    font-size: 0.9em; 
-    font-weight: bold;
-    margin: 4.5px 5px;
-    border-radius: 5px;
+   .button{
+      background-color: gray;
+      border: none;
+      padding: 0.125em 0.58em;
+      color: white;
+      font-size: 0.9em; 
+      font-weight: bold;
+      margin: 4.5px 5px;
+      border-radius: 5px;
 }
 
-.resultado{
-    font-size: 1em;
-    color: green;
-    font-weight: bold;
-    text-align: center;
+   .resultado{
+      font-size: 1em;
+      color: green;
+      font-weight: bold;
+      text-align: center;
 }
  
     
@@ -130,58 +128,58 @@
       padding: 20px;
     }
     header h1{
-    font-size: 1.9em;
+      font-size: 1.9em;
  }
     header{
-        padding: 20px;
+      padding: 20px;
     }
     nav{
-        height: 23px;
+      height: 23px;
     }
    
    main{
-      padding: 9px;
-      padding-bottom: 44px;
-      max-width: 600px;
+       padding: 9px;
+       padding-bottom: 44px;
+       max-width: 600px;
    }
    
     main h2{
-    font-size: 1.55em;
-    margin-bottom: 8px;
+       font-size: 1.55em;
+       margin-bottom: 8px;
  }  
     main p{
-    font-size: 1.03em;
-    margin-bottom: 8px;
+       font-size: 1.03em;
+       margin-bottom: 8px;
  } 
     main ul li{
-    font-size: 0.91em;
-    margin: 3.5px 12px;
+       font-size: 0.91em;
+       margin: 3.5px 12px;
     
  } 
     main ul li:last-child{
-    margin-bottom: 10px;
+       margin-bottom: 10px;
  }
   
    .perguntas{
-    background-color: #f0f0f0;
-    border: 1.1px solid #ccc;
-    padding: 3px;
-    margin: 3px;
+       background-color: #f0f0f0;
+       border: 1.1px solid #ccc;
+       padding: 3px;
+       margin: 3px;
  } 
    .perguntas h3{
-    font-size: 1.2em;
-    color: #333;
-    margin: 4px 4px;
+       font-size: 1.2em;
+       color: #333;
+       margin: 4px 4px;
  } 
    .perguntas p{
-    font-size: 0.95em;
-    color: #202020;
-    margin: 5px 8px;
-    font-weight: 400;
-    margin: 7px 8px;
+       font-size: 0.95em;
+       color: #202020;
+       margin: 5px 8px;
+       font-weight: 400;
+       margin: 7px 8px;
  } 
    .perguntas ul li{
-    font-size: 0.9em;
+       font-size: 0.9em;
  }
    
    .respostas p{
