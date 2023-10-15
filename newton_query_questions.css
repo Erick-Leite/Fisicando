@@ -429,26 +429,22 @@
        font-size: 0.93em;
    }
     .calculation details details summary{
-       font-size: 0.82em;
+       font-size: 0.81em;
    }
    .calculation details details p{
-       font-size: 0.82em;
+       font-size: 0.81em;
        margin: 9px 10px 0px 12px;
    }   
    .calculation ul{
        max-width: 100%;
    }   
    .calculation ul li{
-       font-size: 0.9em;
+       font-size: 0.95em;
        margin: 6px 0px;
    }
    .calculation ul li:last-child{
        margin-bottom: 12px;
-   }
-   .calculation summary{
-       font-size: 1em;
-   }
-   
+   }   
    details{
        font-size: 1.2em;
    }
