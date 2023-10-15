@@ -338,6 +338,13 @@
    .calculation summary{
        font-size: 0.94em;
    }
+   .calculation details details summary{
+       font-size: 0.81em;
+   }
+   .calculation details details p{
+       font-size: 0.82em;
+       margin: 9px 10px 0px 12px;
+   }
    .calculation ul li{
        font-size: 0.93em;
        max-width: 96%;
