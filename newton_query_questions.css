@@ -214,15 +214,17 @@
        font-size: 0.82em;
    }
    .calculation details details p{
-       font-size: 0.82em;
+       font-size: 0.83em;
        margin: 9px 10px 0px 12px;
    }
    .calculation ul{
        max-width: 100%;
    }
    .calculation ul li{
-       font-size: 0.91em;
-       margin: 6px 0px;
+       font-size: 0.9em;
+       overflow-wrap: anywhere;
+       max-width: 98%;
+       margin: 6px 3px;
    }
    .calculation ul li:last-child{
        margin-bottom: 12px;
