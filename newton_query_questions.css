@@ -339,14 +339,14 @@
        font-size: 0.94em;
    }
    .calculation details details summary{
-       font-size: 0.8em;
+       font-size: 0.78em;
    }
    .calculation details details p{
-       font-size: 0.825em;
+       font-size: 0.83em;
        margin: 9px 10px 0px 12px;
    }
    .calculation ul li{
-       font-size: 0.93em;
+       font-size: 0.95em;
        max-width: 96%;
        margin: 8px 3px;
    }
@@ -468,7 +468,7 @@
        max-width: 100%;
    }   
    .calculation ul li{
-       font-size: 0.93em;
+       font-size: 0.95em;
        margin: 8px auto;
        max-width: 94%;
    }
