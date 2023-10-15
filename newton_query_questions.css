@@ -18,13 +18,21 @@
       margin-bottom: 8px;
  } 
  
- .display_button{
+   details{
+       font-size: 0.98em;
+       margin-left: 5px;
+   }
+   details a{
+      font-size: 0.98em;
+   }
+ 
+  .display_button{
       font-size: 0.78em;
       margin: 5px 15px;
       padding: 0.18em 0.313em;
  }
  
-   .button{
+  .button{
       padding: 0.125em 0.58em;
       font-size: 0.88em; 
       margin: 4.5px 5px;
