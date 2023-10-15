@@ -340,6 +340,7 @@
    }
    .calculation ul li{
        font-size: 0.95em;
+       max-width: 96%;
    }
    details{
        font-size: 1.1em;
@@ -459,8 +460,9 @@
        max-width: 100%;
    }   
    .calculation ul li{
-       font-size: 0.95em;
-       margin: 6px 0px;
+       font-size: 0.93em;
+       margin: 6px auto;
+       max-width: 92%;
    }
    .calculation ul li:last-child{
        margin-bottom: 12px;
