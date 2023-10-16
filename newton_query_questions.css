@@ -175,11 +175,11 @@
    }
    
     main h2{
-       font-size: 2.45rem;
+       font-size: 2.4rem;
        margin-bottom: 0.8rem;
  }  
     main p{
-       font-size: 1.620rem;
+       font-size: 1.6rem;
        margin-bottom: 0.8rem;
  } 
     main ul li{
@@ -198,26 +198,27 @@
        margin: 0.3rem;
  } 
    .perguntas h3{
-       font-size: 1.92rem;
+       font-size: 1.9rem;
        color: #333;
        margin: 0.4rem;
  } 
    .perguntas p{
-       font-size: 1.52rem;
+       font-size: 1.510rem;
        color: #202020;
        margin: 0.5rem 0.8rem;
        font-weight: 400;
        margin: 0.7rem 0.8rem;
  } 
    .perguntas ul li{
-       font-size: 1.44rem;
+       font-size: 1.42rem;
  }
    
    .respostas p{
-       font-size: 1.52rem;
+       font-size: 1.5rem;
+       width: 98%;
  }
    .calculation{
-       font-size: 1.52rem;
+       font-size: 1.5rem;
  }
    .calculation div{
        padding-left: 0.5rem;
@@ -229,7 +230,7 @@
        margin: 0.8rem 0px;
  }
    .calculation summary{
-       font-size: 1.432rem;
+       font-size: 1.43rem;
  }
    .calculation details p{
        font-size: 1.488rem;
@@ -242,7 +243,7 @@
        max-width: 100%;
  }
    .calculation ul li{
-       font-size: 1.42rem;
+       font-size: 1.4rem;
        overflow-wrap: anywhere;
        max-width: 98%;
        margin: 0.6rem 0.3rem;
