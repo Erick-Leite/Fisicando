@@ -1,157 +1,7 @@
 @charset 'UFT-8';
 
-/*
-@media(max-width:359px){
-   header{
-      padding: 14px;
- }
-    header h1{
-      font-size: 1.3em;
- }
-   
-   nav{
-       height: 9.5px;
-   }
-   
-   main{
-      padding: 7.8px;
-      padding-bottom: 38px;
-   }
-   main h2{
-      font-size: 1.2em;
-      margin-bottom: 8px;
- } 
- 
-  .perguntas{
-      border: 1px solid #ccc;
-      padding: 2.7px;
-      margin: 3px;
- }
- 
-   details{
-       font-size: 0.98em;
-       margin-left: 5px;
-   }
-   details a{
-      font-size: 0.98em;
-   }
- 
-  .display_button{
-      font-size: 0.78em;
-      margin: 5px 15px;
-      padding: 0.18em 0.313em;
- }
- 
-  .button{
-      padding: 0.125em 0.58em;
-      font-size: 0.88em; 
-      margin: 4.5px 5px;
-}
-    
-}
 
-
-
-
-@media(min-width:360px){
-   header{
-      padding: 15px;
-    }
-   header h1{
-      font-size: 1.4em;
- }
-   
-   nav{
-       height: 10px;
-   }
-   
-   main{
-      padding: 7.8px;
-      padding-bottom: 40px;
-   }
-   
-    main h2{
-      font-size: 1.3em;
-      margin-bottom: 8px;
- }  
-    main p{
-      font-size: 0.95em;
-      margin-bottom: 8px;
- } 
-    main ul li{
-      font-size: 0.9em;
-      margin: 3px 12px;
-    
- } 
-    main ul li:last-child{
-      margin-bottom: 10px;
- }
-  
-   .perguntas{
-      background-color: #f0f0f0;
-      border: 1px solid #ccc;
-      padding: 2.8px;
-      margin: 3px;
- } 
-   .perguntas h3{
-      font-size: 1.15em;
-      color: #333;
-      margin: 4px 4px;
- } 
-   .perguntas p{
-      font-size: 0.95em;
-      color: #202020;
-      margin: 5px 8px;
-      font-weight: 400;
-      margin: 7px 8px;
- } 
-   .perguntas ul li{
-      font-size: 0.9em;
- }
-   
-   .respostas p{
-       font-size: 0.95em;
-   }
-   .calculation{
-       font-size: 0.93em;
-   }
-   details{
-       font-size: 1em;
-       margin-left: 5px;
-   }
-   details a{
-      font-size: 1em;
-   }
-   
-   .display_button{
-      font-size: 0.8em;
-      margin: 5px 15px;
-      padding: 0.18em 0.313em;
- }
- 
-   .button{
-      background-color: gray;
-      border: none;
-      padding: 0.125em 0.58em;
-      color: white;
-      font-size: 0.9em; 
-      font-weight: bold;
-      margin: 4.5px 5px;
-      border-radius: 5px;
-}
-
-   .resultado{
-      font-size: 1em;
-      color: green;
-      font-weight: bold;
-      text-align: center;
-}
- 
-    
-}
-*/
-
-@media(max-width:412px){
+@media(max-width:490px){
     header{
     /* padding: 1.92rem; */
       padding: 4.660194174757281vw;
@@ -162,7 +12,6 @@
  }
     nav{
      /* height: 2.24rem; */
-     /* height: 3,0517711171662127vh; */
       height: 5vw;
     }
    
@@ -170,8 +19,7 @@
       /* padding: 0.9rem; */
        padding: 1.2261580381471389vh 2.1844660194174756vw;
        padding-bottom: 4.4rem;
-       /*max-width: 600px;*/
-       max-width: 145.63106796116506vw;
+       max-width: 600px;
    }
    
     main h2{
