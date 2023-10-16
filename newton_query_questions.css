@@ -153,16 +153,17 @@
 
 @media(max-width:412px){
     header{
-       padding: 1.92rem; 
-     /* padding: 2.6158038147138964vh 4.660194174757281vw; */
+    /* padding: 1.92rem; */
+      padding: 4.660194174757281vw;
     }
     header h1{
-    /*  font-size: 3.0rem; */
+    /* font-size: 3.0rem; */
       font-size: 7.281553398058253vw; 
  }
     nav{
-      height: 2.24rem; 
+     /* height: 2.24rem; */
      /* height: 3,0517711171662127vh; */
+      height: 5vw;
     }
    
    main{
