@@ -153,16 +153,16 @@
 
 @media(max-width:412px){
     header{
-     /* padding: 1.92rem; */
-      padding: 4.660194174757281vw; 
+       padding: 1.92rem; 
+     /* padding: 2.6158038147138964vh 4.660194174757281vw; */
     }
     header h1{
     /*  font-size: 3.0rem; */
       font-size: 7.281553398058253vw; 
  }
     nav{
-     /* height: 2.24rem; */
-      height: 3.0517711171662127vh; 
+      height: 2.24rem; 
+     /* height: 3,0517711171662127vh; */
     }
    
    main{
@@ -214,74 +214,76 @@
    
    .respostas p{
        font-size: 1.52rem;
-   }
+ }
    .calculation{
        font-size: 1.52rem;
-   }
+ }
    .calculation div{
        padding-left: 0.5rem;
-   }
+ }
    .calculation p{
        font-size: 1.2rem;
-   }
+ }
    .calculation details{
        margin: 0.8rem 0px;
-   }
+ }
    .calculation summary{
        font-size: 1.432rem;
-   }
+ }
    .calculation details p{
        font-size: 1.488rem;
-   }
+ }
    .calculation details details p{
-    font-size: 1.488rem;
-    margin: 0.9rem 1.0rem 0.9rem 1.2rem;
-   }
+       font-size: 1.488rem;
+       margin: 0.9rem 1.0rem 0.9rem 1.2rem;
+ }
    .calculation ul{
        max-width: 100%;
-   }
+ }
    .calculation ul li{
        font-size: 1.42rem;
        overflow-wrap: anywhere;
        max-width: 98%;
        margin: 0.6rem 0.3rem;
-   }
+ }
    .calculation ul li:last-child{
        margin-bottom: 1.2rem;
-   }
+ }
    details{
        font-size: 1.76rem;
-   }
+ }
    details summary{
        margin-bottom: 0.4rem;
-   }
+ }
    details a{
       font-size: 1.54rem;
       margin: 0.8rem 17px;
-   }
+ }
    
    .display_button{
-    font-size: 1.712rem;
-    margin: 0.5rem 1.5rem;
-    padding: 0.192rem 0.64rem;
+      /* font-size: 1.712rem; */
+      font-size: 4.155vw;
+      margin: 0.5rem 1.5rem;
+      padding: 0.192rem 0.64rem;
  }
  
- .button{
-  /*  padding: 0.272rem 0.96rem; */
-    padding: 0.37057220708446864vh 2.3300970873786406vw;
-    color: white;
-    font-size: 1.872rem;
-    font-weight: bold;
-    margin: 0.4rem 0.5rem;
-    border-radius: 0.5rem;
-}
+   .button{
+      /* padding: 0.272rem 0.96rem; */
+      padding: 0.37057220708446864vh 2.3300970873786406vw; 
+      color: white;
+   /* font-size: 1.872rem; */
+      font-size: 4.544vw;
+      font-weight: bold;
+      margin: 0.4rem 0.5rem;
+      border-radius: 0.5rem;
+ }
 
-.resultado{
-    font-size: 1.58rem;
-    color: green;
-    font-weight: bold;
-    text-align: center;
-}
+    .resultado{
+      font-size: 1.58rem;
+      color: green;
+      font-weight: bold;
+      text-align: center;
+ }
  
     
 }
