@@ -175,7 +175,8 @@
    }
    
     main h2{
-       font-size: 2.45rem;
+      /* font-size: 2.45rem; */
+       font-size: 5.947vw;
        margin-bottom: 0.8rem;
  }  
     main p{
