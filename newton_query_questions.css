@@ -23,7 +23,7 @@
    }
    
     main h2{
-       font-size: 2.4rem;
+       font-size: 5.825vw;
        margin-bottom: 0.8rem;
  }  
     main p{
@@ -137,6 +137,7 @@
  
     
 }
+
 
 
 @media(min-width:768px){
