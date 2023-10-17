@@ -195,20 +195,16 @@
        font-size: 1.68rem;
    }
    .calculation summary{
-       font-size: 1.568rem;
+       font-size: 1.6rem;
    }
     .calculation details p{
-       font-size: 1.472rem;
+       font-size: 1.5rem;
    }
-   .calculation details details summary{
-       
-   }
-   .calculation details details p{
-       
+   .calculation details details p{       
        margin: 0.9rem 1.0rem 0px 1.2rem;
    }
    .calculation ul li{
-       font-size: 1.552rem;
+       font-size: 1.6rem;
        max-width: 96%;
        margin: 0.8rem 0.3rem;
    }
