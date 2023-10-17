@@ -141,7 +141,7 @@
 
 @media(min-width:768px){
     header{
-      padding: 30px;
+      padding: 2.9rem;
  }
     
     header h1{
@@ -149,7 +149,7 @@
  }
    
    nav{
-      height: 2.24rem;   
+      height: 2.2rem;   
  }
    
    main{
