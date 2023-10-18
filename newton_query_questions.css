@@ -26,11 +26,13 @@
        margin-bottom: 0.8rem;
  }  
     main p{
-       font-size: 1.75rem;
+      /* font-size: 1.75rem; */
+       font-size: 4.248vw;
        margin-bottom: 0.8rem;
  } 
     main ul li{
-       font-size: 1.58rem;
+      /* font-size: 1.58rem; */
+       font-size: 3.835vw;
        margin: 0.35rem 1.3rem;
     
  } 
@@ -51,48 +53,57 @@
        margin: 0.4rem;
  } 
    .perguntas p{
-       font-size: 1.68rem;
+      /* font-size: 1.68rem; */
+       font-size: 4.078vw;
        color: #202020;
        margin: 0.5rem 0.8rem;
        font-weight: 400;
        margin: 0.7rem 0.8rem;
  } 
    .perguntas ul li{
-       font-size: 1.6rem;
+      /* font-size: 1.6rem; */
+       font-size: 3.883vw;
  }
    
    .respostas p{
-       font-size: 1.68rem;
+      /* font-size: 1.68rem; */
+       font-size: 4.078vw;
        width: 98%;
  }
    .calculation{
-       font-size: 1.68rem;
+      /* font-size: 1.68rem; */
+       font-size: 4.078vw;
  }
    .calculation div{
        padding-left: 0.5rem;
  }
    .calculation p{
-       font-size: 1.3rem;
+      /* font-size: 1.3rem; */
+       font-size: 3.155vw;
  }
    .calculation details{
        margin: 0.8rem 0px;
  }
    .calculation summary{
-       font-size: 1.6rem;
+      /* font-size: 1.6rem; */
+       font-size: 3.883vw;
  }
    .calculation details p{
-       font-size: 1.6rem;
+      /* font-size: 1.6rem; */
+       font-size: 3.883vw;
        max-width: 97%;
  }
    .calculation details details p{
-       font-size: 1.6rem;
+      /* font-size: 1.6rem; */
+       font-size: 3.883vw;
        margin: 0.9rem 1.4rem 0.9rem 1.2rem;
  }
    .calculation ul{
        max-width: 100%;
  }
    .calculation ul li{
-       font-size: 1.6rem;
+      /* font-size: 1.6rem; */
+       font-size: 3.883vw;
        overflow-wrap: anywhere;
        max-width: 98%;
        margin: 0.6rem 0.3rem;
@@ -101,13 +112,15 @@
        margin-bottom: 1.2rem;
  }
    details{
-       font-size: 1.8rem;
+      /* font-size: 1.8rem; */
+       font-size: 4.369vw;
  }
    details summary{
        margin-bottom: 0.4rem;
  }
    details a{
-      font-size: 1.6rem;
+     /* font-size: 1.6rem; */
+      font-size: 3.883vw;
       margin: 0.8rem 17px;
  }
    
@@ -130,7 +143,8 @@
  }
 
     .resultado{
-      font-size: 1.6rem;
+     /* font-size: 1.6rem; */
+      font-size: 3.883vw;
       color: green;
       font-weight: bold;
       text-align: center;
