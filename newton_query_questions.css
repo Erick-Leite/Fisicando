@@ -118,9 +118,9 @@
    
    .display_button{
      /* font-size: 1.712rem; */
-      font-size: 4.155vw;
+      font-size: 4.21vw;
       margin: 0.5rem 1.5rem;
-      padding: 0.192rem 0.64rem;
+      padding: 0.3rem 0.6rem;
  }
  
    .button{
@@ -128,7 +128,7 @@
       padding: 0.37057220708446864vh 2.3300970873786406vw; 
       color: white;
      /* font-size: 1.872rem; */
-      font-size: 4.544vw;
+      font-size: 4.6vw;
       font-weight: bold;
       margin: 0.4rem 0.5rem;
       border-radius: 0.5rem;
