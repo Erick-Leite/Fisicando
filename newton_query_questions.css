@@ -139,7 +139,7 @@
 }
 
 
-@media(max-width:600px){
+@media(max-width:767px){
     header{
     /* padding: 1.92rem; */
       padding: 4.566990291262135vw;
@@ -270,8 +270,7 @@
  }
  
    .button{
-      /* padding: 0.272rem 0.96rem; */
-      padding: 0.37057220708446864vh 2.3300970873786406vw; 
+      padding: 0.272rem 0.96rem;     
       color: white;
    /* font-size: 1.872rem; */
       font-size: 4.544vw;
