@@ -23,18 +23,15 @@
  }
    
     main h2{
-      /* font-size: 6.867vw; */
-       font-size: 24.7212rem;
+       font-size: 6.867vw;
        margin-bottom: 0.8rem;
  }  
     main p{
-      /* font-size: 4.861vw; */
-       font-size: 17.499rem;
+       font-size: 4.861vw;
        margin-bottom: 0.8rem;
  } 
     main ul li{
-      /* font-size: 4.389vw; */
-       font-size: 15.8rem;
+       font-size: 4.389vw;
        margin: 0.35rem 1.3rem;
     
  } 
