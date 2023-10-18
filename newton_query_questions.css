@@ -1,6 +1,7 @@
 @charset 'UFT-8';
 
-@media screen and (max-width: 414px){
+
+@media screen and (min-width: 360px) and (max-width: 414px){
     header{
     /* padding: 1.92rem; */
       padding: 4.566990291262135vw;
@@ -26,13 +27,11 @@
        margin-bottom: 0.8rem;
  }  
     main p{
-      /* font-size: 1.75rem; */
-       font-size: 4.248vw;
+       font-size: 1.75rem;
        margin-bottom: 0.8rem;
  } 
     main ul li{
-      /* font-size: 1.58rem; */
-       font-size: 3.835vw;
+       font-size: 1.58rem;
        margin: 0.35rem 1.3rem;
     
  } 
@@ -47,63 +46,54 @@
        margin: 0.3rem;
  } 
    .perguntas h3{
-      /* font-size: 2.3rem; */
-       font-size: 5.583vw;
+       font-size: 2.3rem;
+      /* font-size: 5.583vw; */
        color: #333;
        margin: 0.4rem;
  } 
    .perguntas p{
-      /* font-size: 1.68rem; */
-       font-size: 4.078vw;
+       font-size: 1.68rem;
        color: #202020;
        margin: 0.5rem 0.8rem;
        font-weight: 400;
        margin: 0.7rem 0.8rem;
  } 
    .perguntas ul li{
-      /* font-size: 1.6rem; */
-       font-size: 3.883vw;
+       font-size: 1.6rem; 
  }
    
    .respostas p{
-      /* font-size: 1.68rem; */
-       font-size: 4.078vw;
+       font-size: 1.68rem;
        width: 98%;
  }
    .calculation{
-      /* font-size: 1.68rem; */
-       font-size: 4.078vw;
+       font-size: 1.68rem; 
  }
    .calculation div{
        padding-left: 0.5rem;
  }
    .calculation p{
-      /* font-size: 1.3rem; */
-       font-size: 3.155vw;
+       font-size: 1.3rem;
  }
    .calculation details{
        margin: 0.8rem 0px;
  }
    .calculation summary{
-      /* font-size: 1.6rem; */
-       font-size: 3.883vw;
+       font-size: 1.6rem;
  }
    .calculation details p{
-      /* font-size: 1.6rem; */
-       font-size: 3.883vw;
+       font-size: 1.6rem;
        max-width: 97%;
  }
    .calculation details details p{
-      /* font-size: 1.6rem; */
-       font-size: 3.883vw;
+       font-size: 1.6rem; 
        margin: 0.9rem 1.4rem 0.9rem 1.2rem;
  }
    .calculation ul{
        max-width: 100%;
  }
    .calculation ul li{
-      /* font-size: 1.6rem; */
-       font-size: 3.883vw;
+       font-size: 1.6rem;
        overflow-wrap: anywhere;
        max-width: 98%;
        margin: 0.6rem 0.3rem;
@@ -112,21 +102,18 @@
        margin-bottom: 1.2rem;
  }
    details{
-      /* font-size: 1.8rem; */
-       font-size: 4.369vw;
+       font-size: 1.8rem;
  }
    details summary{
        margin-bottom: 0.4rem;
  }
    details a{
-     /* font-size: 1.6rem; */
-      font-size: 3.883vw;
+      font-size: 1.6rem;
       margin: 0.8rem 17px;
  }
    
    .display_button{
-      /* font-size: 1.712rem; */
-      font-size: 4.3vw;
+      font-size: 1.712rem;
       margin: 0.5rem 1.5rem;
       padding: 0.192rem 0.64rem;
  }
@@ -135,16 +122,14 @@
       /* padding: 0.272rem 0.96rem; */
       padding: 0.37057220708446864vh 2.3300970873786406vw; 
       color: white;
-   /* font-size: 1.872rem; */
-      font-size: 4.6vw;
+      font-size: 1.872rem;
       font-weight: bold;
       margin: 0.4rem 0.5rem;
       border-radius: 0.5rem;
  }
 
     .resultado{
-     /* font-size: 1.6rem; */
-      font-size: 3.883vw;
+      font-size: 1.6rem;
       color: green;
       font-weight: bold;
       text-align: center;
@@ -152,6 +137,7 @@
  
     
 }
+
 
 @media screen and (min-width: 415px) and (max-width: 600px){
     header{
@@ -303,6 +289,7 @@
  
     
 }
+
 
 @media screen and (min-width: 601px) and (max-width: 768px){
     header{
