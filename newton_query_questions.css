@@ -3,15 +3,15 @@
 
 @media screen and (min-width: 360px) and (max-width: 415px){
     header{
-    /* padding: 1.92rem; */
-      padding: 4.566990291262135vw;
+    /* padding: 1.881; */
+      padding: 4.566vw;
     }
     header h1{
-    /* font-size: 3.0rem; */
-      font-size: 7.135922330097087vw;       
+    /* font-size: 2.94rem; */
+      font-size: 7.136vw;       
  }
     nav{
-     /* height: 2.24rem; */
+     /* height: 2.0188rem; */
       height: 4.9vw;
     }
    
@@ -147,16 +147,16 @@
 
 @media screen and (min-width: 415px) and (max-width: 600px){
     header{
-    /* padding: 1.92rem; */
-      padding: 4.566990291262135vw;
+     /* padding: 1.881; */
+      padding: 4.533vw;
     }
     header h1{
-    /* font-size: 3.0rem; */
-      font-size: 7.135922330097087vw;       
+     /* font-size: 2.94rem; */
+      font-size: 7.084vw;       
  }
     nav{
-     /* height: 2.24rem; */
-      height: 4.9vw;
+     /* height: 2.0188rem; */
+      height: 4.865vw;
     }
    
    main{
