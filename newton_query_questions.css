@@ -139,7 +139,7 @@
 }
 
 
-@media(max-width:767px){
+@media(max-width:600px){
     header{
     /* padding: 1.92rem; */
       padding: 4.566990291262135vw;
@@ -157,7 +157,7 @@
       /* padding: 0.9rem; */
        padding: 1.2261580381471389vh 2.1844660194174756vw;
        padding-bottom: 4.4rem;
-       max-width: 600px;
+       
    }
    
     main h2{
@@ -291,7 +291,7 @@
 }
 
 
-@media(min-width:768px){
+@media(max-width:769px){
     header{
       padding: 2.9rem;
  }
