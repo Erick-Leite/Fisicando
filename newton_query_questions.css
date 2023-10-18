@@ -85,9 +85,13 @@
        font-size: 1.6rem;
        max-width: 97%;
  }
+   .calculation details details summary{
+       font-size: 1.6rem;
+   }
    .calculation details details p{
        font-size: 1.6rem; 
-       margin: 0.9rem 1.4rem 0.9rem 1.2rem;
+     /* margin: 0.9rem 1.4rem 0.9rem 1.2rem; */
+       margin: 0.9rem 2.56% 0.9rem 2.9%;
  }
    .calculation ul{
        max-width: 100%;
@@ -108,7 +112,7 @@
        margin-bottom: 0.4rem;
  }
    details a{
-      font-size: 1.6rem;
+      font-size: 1.7rem;
       margin: 0.8rem 17px;
  }
    
