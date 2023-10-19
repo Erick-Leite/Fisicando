@@ -219,7 +219,7 @@
  }
    .calculation details p{
        font-size: 1.6rem;
-       max-width: 97%;
+       max-width: 97%;              
  }
    .calculation details details summary{
        font-size: 1.6rem;
@@ -235,7 +235,7 @@
    .calculation ul li{
        font-size: 1.6rem;
        overflow-wrap: anywhere;
-       max-width: 98%;
+       max-width: 97%;
        margin: 0.6rem 0.3rem;
  }
    .calculation ul li:last-child{
