@@ -508,14 +508,14 @@
        font-size: 1.78rem;
    }
    .calculation details p{
-       font-size: 1.75rem;
+       font-size: 1.78rem;
        width: 98%;
    }
    .calculation details details p{       
        margin: 0.9rem 1.0rem 0px 1.2rem;
    }
    .calculation ul li{
-       font-size: 1.75rem;
+       font-size: 1.78rem;
        max-width: 97%;
        margin: 0.8rem 0.3rem;
    }
@@ -528,7 +528,7 @@
    
    
    .display_button{
-    font-size: 2.2rem;
+    font-size: 2.1rem;
     margin: 0.5rem 1.5rem;
     padding: 0.224rem 0.8rem;
  }
@@ -537,8 +537,7 @@
  .button{
     background-color: gray;
     border: none;
-   /* padding: 0.288rem 1.12rem; */
-    height: 2.4rem;
+    padding: 0.288rem 0px;
     color: white;
     font-size: 2.2rem;
     font-weight: bold;
