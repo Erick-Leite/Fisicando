@@ -508,12 +508,13 @@
        font-size: 1.78rem;
    }
    .calculation details p{
-       font-size: 1.78rem;
-       width: 98%;
+       font-size: 1.77rem;
+       overflow-wrap: anywhere;
+       max-width: 98%;
    }
    .calculation details details p{  
-       font-size: 1.78rem;  
-       margin: 0.9rem 1.0rem 0px 1.2rem;
+       font-size: 1.78rem;
+       margin: 0.9rem 2.56% 0.9rem 2.9%;
    }
    .calculation details details summary{
        font-size: 1.78rem;
@@ -550,7 +551,7 @@
  }
 
  .resultado{
-    font-size: 1.8rem;
+    font-size: 2.0rem;
  }
    
 }
