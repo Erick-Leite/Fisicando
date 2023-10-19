@@ -32,22 +32,18 @@ header h1{
 
 nav{
    display: block;
-   /*height: 30px;*/
-   height: 1.4em;
    background-color: #333;
 }
 
 
 main{
     margin: 0 auto;
-    padding: 9px;
-    padding-bottom: 44px;
+    padding: 0px 2.1844660194174756vw 4.4rem 2.1844660194174756vw;
     max-width: 600px;
 }
 main h2{
     font-size: 1.55em;
-    color: #333;
-    margin-bottom: 10px;
+    color: rgba(0,0,0,0.9);
     text-indent: 3.1px;
     font-size: 1.55em;
     margin-bottom: 8px;
@@ -55,7 +51,6 @@ main h2{
 main p{
     font-size: 1.03em;
     color: #666;
-    margin-bottom: 10px;
     font-size: 1.03em;
     margin-bottom: 8px;
 }
