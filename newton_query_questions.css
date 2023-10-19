@@ -1,18 +1,16 @@
 @charset 'UFT-8';
 
 
-@media screen and (max-width: 360px){
-    header{
-    /* padding: 1.881; */
-      padding: 4.566vw;
+@media screen and (max-width: 360px){    
+   header{
+      padding: 4.7vw;
  }
     header h1{
-    /* font-size: 2.94rem; */
-      font-size: 7.136vw;       
+      font-size: 7vw;       
  }
+ 
     nav{
-     /* height: 2.0188rem; */
-      height: 4.9vw;
+      height: 1.9rem;
  }
    
    main{
@@ -147,16 +145,13 @@
 
 @media screen and (min-width: 360px) and (max-width: 415px){
     header{
-    /* padding: 1.881; */
-      padding: 4.566vw;
+      padding: 4.7vw;
  }
     header h1{
-    /* font-size: 2.94rem; */
-      font-size: 7.136vw;       
+      font-size: 7vw;       
  }
     nav{
-     /* height: 2.0188rem; */
-      height: 4.9vw;
+      height: 1.9rem;
  }
    
    main{
@@ -290,19 +285,17 @@
 
 
 
-@media screen and (min-width: 415px) and (max-width: 600px){
-    header{
-     /* padding: 1.881; */
-      padding: 4.533vw;
-    }
-    header h1{
-     /* font-size: 2.94rem; */
-      font-size: 7.084vw;       
+@media screen and (min-width: 415px) and (max-width: 600px){   
+   header{
+      padding: 4.7vw;
  }
+    header h1{
+      font-size: 7vw;       
+ }
+ 
     nav{
-     /* height: 2.0188rem; */
-      height: 4.865vw;
-    }
+      height: 1.9rem;
+ }
    
    main{
       /* padding: 0.9rem; */
@@ -450,18 +443,6 @@
 
 
 @media screen and (min-width: 600px) and (max-width: 769px){
-   /* header{
-      padding: 2.9rem;
- }
-    
-    header h1{
-      font-size: 3rem;
- }
-   
-   nav{
-      height: 2.2rem;   
- }
-   */
    header{
       padding: 1.881rem;
      /* padding: 4.533vw; */
