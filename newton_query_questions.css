@@ -15,9 +15,7 @@
    
    main{
       /* padding: 0.9rem; */
-       padding: 1.2261580381471389vh 2.1844660194174756vw;
-       padding-bottom: 4.4rem;
-       max-width: 600px;
+       padding: 0px 2.1844660194174756vw 4.4rem 2.1844660194174756vw;
  }
    
     main h2{
@@ -144,6 +142,7 @@
 
 
 @media screen and (min-width: 360px) and (max-width: 415px){
+/* Baseado em 412px*/
     header{
       padding: 4.7vw;
  }
@@ -156,14 +155,12 @@
    
    main{
       /* padding: 0.9rem; */
-       padding: 1.2261580381471389vh 2.1844660194174756vw;
-       padding-bottom: 4.4rem;
-       max-width: 600px;
+       padding: 0px 2.1844660194174756vw 4.4rem 2.1844660194174756vw;
  }
    
     main h2{
        font-size: 6vw;
-       margin-bottom: 0.8rem;
+       margin: 0.8rem 0px;
  }  
     main p{
        font-size: 1.75rem;
@@ -285,7 +282,8 @@
 
 
 
-@media screen and (min-width: 415px) and (max-width: 600px){   
+@media screen and (min-width: 415px) and (max-width: 600px){
+ /* Baseado em 415 */
    header{
       padding: 4.7vw;
  }
@@ -299,9 +297,7 @@
    
    main{
       /* padding: 0.9rem; */
-       padding: 1.2261580381471389vh 2.1844660194174756vw;
-       padding-bottom: 4.4rem;
-       max-width: 600px;
+       padding: 0px 2.1844660194174756vw 4.4rem 2.1844660194174756vw;
    }
    
     main h2{
@@ -460,10 +456,11 @@
    main{
       display: flex;
       flex-direction: column;
+      padding: 0px 2.1844660194174756vw 4.4rem 2.1844660194174756vw;
       max-width: 650px;
    }   
     main h2{
-      font-size: 2.2rem;
+      font-size: 2.4rem;
       font-family: serif;
       margin: 0.9rem auto;
  }  
