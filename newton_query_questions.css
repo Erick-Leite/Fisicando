@@ -411,7 +411,7 @@
    .display_button{
      /* font-size: 1.711875rem; */
      /* font-size: 4.125vw; */
-      font-size: max(4.125vw, 3.5vw);
+      font-size: max(3.5vw, 4.125vw);
       margin: 0.5rem 1.5rem;
       padding: 0.3rem 0.65rem;
  }
@@ -422,7 +422,7 @@
       color: white;
      /* font-size: 1.872rem; */
      /* font-size: 4.511vw; */
-      font-size: max(4.511vw, 3.667vw);
+      font-size: max(3.667vw, 4.511vw);
       font-weight: bold;
       margin: 0.4rem 0.5rem;
       border-radius: 0.5rem;
