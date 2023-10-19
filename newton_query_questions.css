@@ -542,11 +542,11 @@
  .button{
     background-color: gray;
     border: none;
-    padding: 0.288rem 0px;
+    padding: 0.3rem 0px;
     color: white;
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     font-weight: bold;
-    margin: 0.4rem 0.5rem;
+    margin: 0.1rem 0.5rem;
     border-radius: 0.5rem;
  }
 
