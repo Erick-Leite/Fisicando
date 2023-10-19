@@ -420,8 +420,9 @@
       /* padding: 0.272rem 0.96rem; */
       padding: 0.37057220708446864vh 2.3300970873786406vw; 
       color: white;
-      font-size: 1.872rem;
+     /* font-size: 1.872rem; */
      /* font-size: 4.511vw; */
+      font-size: min(4.511vw, 2.2rem);
       font-weight: bold;
       margin: 0.4rem 0.5rem;
       border-radius: 0.5rem;
