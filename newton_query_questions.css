@@ -552,115 +552,115 @@
 }
 
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-   header {
-      padding: 1.92%;
-     /* padding: 4.533vw; */
-    }
-    header h1 {
-      font-size: 3%;
-     /* font-size: 7.084vw; */      
+@media screen and (min-width: 769px) and (max-width: 1024px){
+   header{
+      padding: 1.881rem;
+     /* padding: 4.533vw; */
+    }
+    header h1{
+      font-size: 2.94rem;
+     /* font-size: 7.084vw; */      
  }
-    nav {
-      height: 2.06%;
-     /* height: 4.865vw; */
-    }
-   
-   
-   main {
-      display: flex;
-      flex-direction: column;
-      padding: 0px 2.23% 4.5% 2.23%;
-      max-width: 66.3265%;
-   }   
-    main h2 {
-      font-size: 2.45%;
-      font-family: serif;
-      margin: 0.92% auto;
- }  
-    main p {
-      text-align: justify;
-      font-size: 1.84%;
+    nav{
+      height: 2.0188rem;
+     /* height: 4.865vw; */
+    }
+   
+   
+   main{
+      display: flex;
+      flex-direction: column;
+      padding: 0px 2.1844660194174756vw 4.4rem 2.1844660194174756vw;
+      max-width: 650px;
+   }   
+    main h2{
+      font-size: 2.4rem;
+      font-family: serif;
+      margin: 0.9rem auto;
+ }  
+    main p{
+      text-align: justify;
+      font-size: 1.8rem;
  }
-    main ul li {
-    font-size: 1.74%;
-    margin: 0.61% 1.22%;
-    
+    main ul li{
+    font-size: 1.7rem;
+    margin: 0.6rem 1.2rem;
+    
  } 
-  
-   .perguntas {
-    border: 0.0112% solid #ccc;
-    box-shadow: 0px 0px 0.02% #0000008a;
-    
+  
+   .perguntas{
+    border: 0.11rem solid #ccc;
+    box-shadow: 0px 0px 0.2rem #0000008a;
+    
  } 
-   .perguntas h3 {
-    margin: 0.41%;
-    font-size: 2.14%;
+   .perguntas h3{
+    margin: 0.4rem;
+    font-size: 2.1rem;
  } 
-   .perguntas p {
-    margin: 0.71% 0.82%;
-    font-size: 1.84%;
+   .perguntas p{
+    margin: 0.7rem 0.8rem;
+    font-size: 1.8rem;
  } 
-   .perguntas ul li {
-    font-size: 1.76%;
- }
- 
-   .respostas p {
-       font-size: 1.84%;
-   }
-   .calculation {
-       font-size: 1.82%;
-   }
-   .calculation summary {
-       font-size: 1.82%;
-   }
-   .calculation details p {
-       font-size: 1.81%;
-       overflow-wrap: anywhere;
-       max-width: 99.7969%;
-   }
-   .calculation details details p {  
-       font-size: 1.82%;
-       margin: 0.92% 2.61% 0.92% 2.96%;
-   }
-   .calculation details details summary {
-       font-size: 1.82%;
-   }
-   .calculation ul li {
-       font-size: 1.82%;
-       max-width: 99%;
-       margin: 0.82% 0.31%;
-   }
-   details {
-       font-size: 1.85%;
-   }
-   details a {
-      font-size: 1.82%;
-   }
-   
-   
-   .display_button {
-    font-size: 2.14%;
-    margin: 0.51% 1.53%;
-    padding: 0.31% 0.66%;
+   .perguntas ul li{
+    font-size: 1.72rem;
  }
  
+   .respostas p{
+       font-size: 1.8rem;
+   }
+   .calculation{
+       font-size: 1.78rem;
+   }
+   .calculation summary{
+       font-size: 1.78rem;
+   }
+   .calculation details p{
+       font-size: 1.77rem;
+       overflow-wrap: anywhere;
+       max-width: 98%;
+   }
+   .calculation details details p{  
+       font-size: 1.78rem;
+       margin: 0.9rem 2.56% 0.9rem 2.9%;
+   }
+   .calculation details details summary{
+       font-size: 1.78rem;
+   }
+   .calculation ul li{
+       font-size: 1.78rem;
+       max-width: 97%;
+       margin: 0.8rem 0.3rem;
+   }
+   details{
+       font-size: 1.81rem;
+   }
+   details a{
+      font-size: 1.78rem;
+   }
+   
+   
+   .display_button{
+    font-size: 2.1rem;
+    margin: 0.5rem 1.5rem;
+    padding: 0.3rem 0.65rem;
+ }
  
- .button {
-    background-color: gray;
-    border: none;
-    padding: 0.41% 0px;
-    color: white;
-    font-size: 2.24%;
-    font-weight: bold;
-    margin: 0.1% 0.31%;
-    border-radius: 0.51%;
+ 
+ .button{
+    background-color: gray;
+    border: none;
+    padding: 0.4rem 0px;
+    color: white;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin: 0.1rem 0.3rem;
+    border-radius: 0.5rem;
  }
 
- .resultado {
-    font-size: 2.04%;
+ .resultado{
+    font-size: 2.0rem;
  }
-   
+   
 }
 
 
