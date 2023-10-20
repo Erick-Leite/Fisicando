@@ -471,30 +471,30 @@
       font-size: 1.8rem;
  }
     main ul li{
-      font-size: 1.7rem;
-      margin: 0.6rem 1.2rem;
+    font-size: 1.7rem;
+    margin: 0.6rem 1.2rem;
     
  } 
   
    .perguntas{
-      border: 0.11rem solid #ccc;
-      box-shadow: 0px 0px 0.2rem #0000008a;
+    border: 0.11rem solid #ccc;
+    box-shadow: 0px 0px 0.2rem #0000008a;
     
  } 
    .perguntas h3{
-      margin: 0.4rem;
-      font-size: 2.1rem;
+    margin: 0.4rem;
+    font-size: 2.1rem;
  } 
    .perguntas p{
-      margin: 0.7rem 0.8rem;
-      font-size: 1.8rem;
+    margin: 0.7rem 0.8rem;
+    font-size: 1.8rem;
  } 
    .perguntas ul li{
-      font-size: 1.72rem;
+    font-size: 1.72rem;
  }
  
    .respostas p{
-      font-size: 1.8rem;
+       font-size: 1.8rem;
    }
    .calculation{
        font-size: 1.78rem;
@@ -558,8 +558,8 @@
       padding: 3.135vw;
     }
     header h1{
-     /* font-size: 3.2rem; */ 
-      font-size: 4.6rem;
+      font-size: 3.2rem;
+     /* font-size: 4.9vw; */
  }
     nav{
      /* height: 4.865vw; */
@@ -570,13 +570,12 @@
    main{
       display: flex;
       flex-direction: column;
-      padding: 0px 2.1844660194174756vw 4.6rem 2.1844660194174756vw;
+      padding: 0px 2.1844660194174756vw 4.4rem 2.1844660194174756vw;
      /* max-width: 620px; */
       max-width: 80.624vw;
    }   
     main h2{
-     /* font-size: 2.5rem; */
-      font-size: 4.2rem;
+      font-size: 2.5rem;
       font-family: serif;
       margin: 0.9rem auto;
  }  
@@ -642,8 +641,8 @@
    
    
    .display_button{
-    font-size: 3.8rem;
-    margin: 1.5rem 1.6rem;
+    font-size: 2.1rem;
+    margin: 0.5rem 1.5rem;
     padding: 0.3rem 0.65rem;
  }
  
@@ -653,15 +652,14 @@
     border: none;
     padding: 0.4rem 0px;
     color: white;
-   /* font-size: 2.2rem; */
-    font-size: 3.9rem;
+    font-size: 2.2rem;
     font-weight: bold;
     margin: 0.1rem 0.3rem;
     border-radius: 0.5rem;
  }
 
  .resultado{
-    font-size: 3.8rem;
+    font-size: 2.0rem;
  }
    
 }
