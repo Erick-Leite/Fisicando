@@ -552,125 +552,124 @@
 }
 
 
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+   header {
+      padding: 0.24%;
+     /* padding: 1.881rem; */
+    }
+    header h1 {
+      font-size: 0.52%;
+     /* font-size: 2.94rem; */      
+ }
+    nav {
+      height: 0.26%;
+     /* height: 2.0188rem; */
+    }
+   
+   
+   main {
+      display: flex;
+      flex-direction: column;
+      padding: 0px 0.34% 0.68% 0.34%;
+      max-width: 84.5%;
+   }   
+    main h2 {
+      font-size: 0.37%;
+      font-family: serif;
+      margin: 0.14% auto;
+ }  
+    main p {
+      text-align: justify;
+      font-size: 0.28%;
+ }
+    main ul li {
+    font-size: 0.26%;
+    margin: 0.09% 0.18%;
+    
+ } 
+  
+   .perguntas {
+    border: 0.017% solid #ccc;
+    box-shadow: 0px 0px 0.003% #0000008a;
+    
+ } 
+   .perguntas h3 {
+    margin: 0.06%;
+    font-size: 0.32%;
+ } 
+   .perguntas p {
+    margin: 0.11% 0.12%;
+    font-size: 0.28%;
+ } 
+   .perguntas ul li {
+    font-size: 0.27%;
+ }
+ 
+   .respostas p {
+       font-size: 0.28%;
+   }
+   .calculation {
+       font-size: 0.27%;
+   }
+   .calculation summary {
+       font-size: 0.27%;
+   }
+   .calculation details p {
+       font-size: 0.28%;
+       overflow-wrap: anywhere;
+       max-width: 98%;
+   }
+   .calculation details details p {  
+       font-size: 0.28%;
+       margin: 0.14% 4% 0.14% 4.5%;
+   }
+   .calculation details details summary {
+       font-size: 0.27%;
+   }
+   .calculation ul li {
+       font-size: 0.27%;
+       max-width: 97%;
+       margin: 0.12% 0.05%;
+   }
+   details {
+       font-size: 0.28%;
+   }
+   details a {
+      font-size: 0.27%;
+   }
+   
+   
+   .display_button {
+    font-size: 0.37%;
+    margin: 0.07% 0.26%;
+    padding: 0.04% 0.11%;
+ }
+ 
+ 
+ .button {
+    background-color: gray;
+    border: none;
+    padding: 0.05% 0px;
+    color: white;
+    font-size: 0.39%;
+    font-weight: bold;
+    margin: 0.01% 0.04%;
+    border-radius: 0.07%;
+ }
 
-@media screen and (min-width: 769px) and (max-width: 980px){
-   header{
-      padding: 1.881rem;
-     /* padding: 4.533vw; */
-    }
-    header h1{
-      font-size: 2.94rem;
-     /* font-size: 7.084vw; */      
+ .resultado {
+    font-size: 0.35%;
  }
-    nav{
-      height: 2.0188rem;
-     /* height: 4.865vw; */
-    }
-   
-   
-   main{
-      display: flex;
-      flex-direction: column;
-      padding: 0px 2.1844660194174756vw 4.4rem 2.1844660194174756vw;
-      max-width: 650px;
-   }   
-    main h2{
-      font-size: 2.4rem;
-      font-family: serif;
-      margin: 0.9rem auto;
- }  
-    main p{
-      text-align: justify;
-      font-size: 1.8rem;
- }
-    main ul li{
-    font-size: 1.7rem;
-    margin: 0.6rem 1.2rem;
-    
- } 
-  
-   .perguntas{
-    border: 0.11rem solid #ccc;
-    box-shadow: 0px 0px 0.2rem #0000008a;
-    
- } 
-   .perguntas h3{
-    margin: 0.4rem;
-    font-size: 2.1rem;
- } 
-   .perguntas p{
-    margin: 0.7rem 0.8rem;
-    font-size: 1.8rem;
- } 
-   .perguntas ul li{
-    font-size: 1.72rem;
- }
- 
-   .respostas p{
-       font-size: 1.8rem;
-   }
-   .calculation{
-       font-size: 1.78rem;
-   }
-   .calculation summary{
-       font-size: 1.78rem;
-   }
-   .calculation details p{
-       font-size: 1.77rem;
-       overflow-wrap: anywhere;
-       max-width: 98%;
-   }
-   .calculation details details p{  
-       font-size: 1.78rem;
-       margin: 0.9rem 2.56% 0.9rem 2.9%;
-   }
-   .calculation details details summary{
-       font-size: 1.78rem;
-   }
-   .calculation ul li{
-       font-size: 1.78rem;
-       max-width: 97%;
-       margin: 0.8rem 0.3rem;
-   }
-   details{
-       font-size: 1.81rem;
-   }
-   details a{
-      font-size: 1.78rem;
-   }
-   
-   
-   .display_button{
-    font-size: 2.1rem;
-    margin: 0.5rem 1.5rem;
-    padding: 0.3rem 0.65rem;
- }
- 
- 
- .button{
-    background-color: gray;
-    border: none;
-    padding: 0.4rem 0px;
-    color: white;
-    font-size: 2.2rem;
-    font-weight: bold;
-    margin: 0.1rem 0.3rem;
-    border-radius: 0.5rem;
- }
-
- .resultado{
-    font-size: 2.0rem;
- }
-   
+   
 }
 
 
-
+/*
 @media(min-width:980px){
     main{
         max-width: 760px;
     }
-}
+}*/
 
 
 @media(min-width:1024px){
