@@ -459,7 +459,7 @@
       display: flex;
       flex-direction: column;
       padding: 0px 2.1844660194174756vw 4.4rem 2.1844660194174756vw;
-      max-width: 650px;
+      max-width: 620px;
    }   
     main h2{
       font-size: 2.4rem;
@@ -571,7 +571,8 @@
       display: flex;
       flex-direction: column;
       padding: 0px 2.1844660194174756vw 4.4rem 2.1844660194174756vw;
-      max-width: 650px;
+     /* max-width: 620px; */
+      max-width: 80.624vw;
    }   
     main h2{
       font-size: 2.4rem;
