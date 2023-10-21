@@ -457,7 +457,7 @@
    
    main{
       display: flex;
-      flex-direction: column;
+      flex-direction: column;      
       padding: 0px 2.1844660194174756vw 4.4rem 2.1844660194174756vw;
       max-width: 620px;
    }   
@@ -552,7 +552,7 @@
 }
 
 
-@media screen and (min-width: 769px) and (max-width: 1024px){   
+@media screen and (min-width: 769px) and (max-width: 1025px){   
    header{
      /* padding: 1.881rem; */
       padding: 3.135vw;
