@@ -552,7 +552,7 @@
 }
 
 
-@media screen and (min-width: 769px) and (max-width: 1025px){   
+@media screen and (min-width: 769px) and (max-width: 1024px){   
    header{
      /* padding: 1.881rem; */
       padding: 3.135vw;
@@ -673,216 +673,118 @@
 }*/
 
 
-@media(min-width:1024px){
-    header{
-      padding: 30px;
- }
-    
+@media screen and (min-width: 1024px) and (max-width: 1440px){   
+   header{
+     /* padding: 1.881rem; */
+      padding: 3.135vw;
+    }
     header h1{
-      font-size: 2.1em;
+      font-size: 3.2rem;
+     /* font-size: 4.9vw; */
  }
+    nav{
+     /* height: 4.865vw; */
+      height: 1.9002rem;
+    }
+   
    
    main{
       display: flex;
       flex-direction: column;
-      max-width: 780px;
- }   
+      padding: 0px 2.1844660194174756vw 4.4rem 2.1844660194174756vw;
+     /* max-width: 620px; */
+      max-width: 80.624vw;
+   }   
     main h2{
-      font-size: 1.8em;
+      font-size: 2.5rem;
       font-family: serif;
-      margin: 8px auto;
+      margin: 0.9rem auto;
  }  
     main p{
       text-align: justify;
-      font-size: 1.2em;
+      font-size: 1.8rem;
  }
     main ul li{
-    font-size: 1.1em;
-    margin: 5px 12px;
+    font-size: 1.7rem;
+    margin: 0.6rem 1.2rem;
     
  } 
   
    .perguntas{
-    border: 1.1px solid #ccc;
+    border: 0.11rem solid #ccc;
+    box-shadow: 0px 0px 0.2rem #0000008a;
     
  } 
    .perguntas h3{
-    margin: 4px 4px;
-    font-size: 1.4em;
+    margin: 0.4rem;
+    font-size: 2.1rem;
  } 
    .perguntas p{
-    margin: 7px 8px;
-    font-size: 1.2em;
+    margin: 0.7rem 0.8rem;
+    font-size: 1.8rem;
  } 
    .perguntas ul li{
-    font-size: 1.1em;
+    font-size: 1.72rem;
  }
- 
  
    .respostas p{
-       font-size: 1.2em;
- }
-   .calculation{
-       font-size: 1.2em;
- }
-   .calculation div{
-       padding-left: 5px;
+       font-size: 1.8rem;
    }
-   .calculation p{
-       font-size: 0.85em;
-   }   
-   .calculation details{
-       margin: 8px 0px;
+   .calculation{
+       font-size: 1.78rem;
    }
    .calculation summary{
-       font-size: 0.89em;
+       font-size: 1.78rem;
    }
    .calculation details p{
-       font-size: 0.93em;
+       font-size: 1.77rem;
+       overflow-wrap: anywhere;
+       max-width: 98%;
    }
-    .calculation details details summary{
-       font-size: 0.78em;
+   .calculation details details p{  
+       font-size: 1.78rem;
+       margin: 0.9rem 2.56% 0.9rem 2.9%;
    }
-   .calculation details details p{
-       font-size: 0.79em;
-       margin: 9px 10px 0px 12px;
-   }   
-   .calculation ul{
-       max-width: 100%;
-   }   
+   .calculation details details summary{
+       font-size: 1.78rem;
+   }
    .calculation ul li{
-       font-size: 0.99em;
-       margin: 8px auto;
-       max-width: 94%;
+       font-size: 1.78rem;
+       max-width: 97%;
+       margin: 0.8rem 0.3rem;
    }
-   .calculation ul li:last-child{
-       margin-bottom: 12px;
-   }   
    details{
-       font-size: 1.2em;
-   }
-   details summary{
-       margin-bottom: 4px;
+       font-size: 1.81rem;
    }
    details a{
-      font-size: 1.1em;
-      margin: 8px 17px;
+      font-size: 1.78rem;
    }
- 
-           
+   
+   
    .display_button{
-    font-size: 1.3em;
-    margin: 5px 15px;
-    padding: 0.14em 0.5em;
+    font-size: 2.1rem;
+    margin: 0.5rem 1.5rem;
+    padding: 0.3rem 0.65rem;
  }
  
  
  .button{
     background-color: gray;
     border: none;
-    padding: 0.18em 0.7em;
+    padding: 0.4rem 0px;
     color: white;
-    font-size: 1.4em;
+    font-size: 2.2rem;
     font-weight: bold;
-    margin: 4px 5px;
-    border-radius: 5px;
+    margin: 0.1rem 0.3rem;
+    border-radius: 0.5rem;
  }
 
  .resultado{
-    font-size: 1.2em;
+    font-size: 2.0rem;
  }
- 
+   
 }
 
-
-@media(min-width:1200px){
-    header{
-      padding: 30px;
- }
-    
-    header h1{
-      font-size: 2.15em;
- }
-   
-   main{
-      display: flex;
-      flex-direction: column;
-      max-width: 820px;
- }   
-    main h2{
-      font-size: 1.85em;
-      font-family: serif;
-      margin: 8px auto;
- }  
-    main p{
-      text-align: justify;
-      font-size: 1.25em;
- }
-    main ul li{
-    font-size: 1.15em;
-    margin: 5px 12px;
-    
- } 
-  
-   .perguntas{
-    border: 1.1px solid #ccc;
-    
- } 
-   .perguntas h3{
-    margin: 4px 4px;
-    font-size: 1.45em;
- } 
-   .perguntas p{
-    margin: 7px 8px;
-    font-size: 1.25em;
- } 
-   .perguntas ul li{
-    font-size: 1.15em;
- }
- 
-   .respostas p{
-       font-size: 1.25em;
- }
-   .calculation{
-       font-size: 1.15em;
- }
-   .calculation summary{
-       font-size: 1.05em;
-   }
-   .calculation ul li{
-       font-size: 1.05em;
-   }
-   details{
-       font-size: 1.25em;
- }
-   details a{
-      font-size: 1.15em;
- }
-   
-   
-   .display_button{
-    font-size: 1.35em;
-    margin: 5px 15px;
-    padding: 0.14em 0.5em;
- }
- 
- 
- .button{
-    background-color: gray;
-    border: none;
-    padding: 0.18em 0.7em;
-    color: white;
-    font-size: 1.45em;
-    font-weight: bold;
-    margin: 4px 5px;
-    border-radius: 5px;
- }
-
- .resultado{
-    font-size: 1.25em;
- }
- 
-}
 
 
 @media(min-width:1440px){
