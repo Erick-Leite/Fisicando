@@ -657,7 +657,7 @@
    .display_button{
    /* font-size: 2.1rem; */
    /* font-size: 2.731vw; */
-    font-size: calc(2.0rem + 0.13vw);
+    font-size: calc(1.7rem + 0.39vw);
     margin: 0.5rem 1.5rem;
     padding: 0.3rem 0.65rem;
  }
