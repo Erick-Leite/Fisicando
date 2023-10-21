@@ -655,8 +655,8 @@
    
    
    .display_button{
-   /* font-size: 2.1rem; */
-    font-size: 2.731vw;
+    font-size: 2.1rem;
+   /* font-size: 2.731vw; */
     margin: 0.5rem 1.5rem;
     padding: 0.3rem 0.65rem;
  }
@@ -667,8 +667,8 @@
     border: none;
     padding: 0.4rem 0px;
     color: white;
-   /* font-size: 2.2rem; */
-    font-size: 2.861vw;
+    font-size: 2.2rem; 
+   /* font-size: 2.861vw; */
     font-weight: bold;
     margin: 0.1rem 0.3rem;
     border-radius: 0.5rem;
