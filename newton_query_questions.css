@@ -468,10 +468,10 @@
  }  
     main p{
       text-align: justify;
-      font-size: 1.8rem;
+      font-size: 1.7rem;
  }
     main ul li{
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     margin: 0.6rem 1.2rem;
     
  } 
@@ -483,47 +483,47 @@
  } 
    .perguntas h3{
     margin: 0.4rem;
-    font-size: 2.1rem;
+    font-size: 2.0rem;
  } 
    .perguntas p{
     margin: 0.7rem 0.8rem;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
  } 
    .perguntas ul li{
-    font-size: 1.72rem;
+    font-size: 1.62rem;
  }
  
    .respostas p{
-       font-size: 1.8rem;
+       font-size: 1.7rem;
    }
    .calculation{
-       font-size: 1.78rem;
+       font-size: 1.68rem;
    }
    .calculation summary{
-       font-size: 1.78rem;
+       font-size: 1.68rem;
    }
    .calculation details p{
-       font-size: 1.77rem;
+       font-size: 1.67rem;
        overflow-wrap: anywhere;
        max-width: 98%;
    }
    .calculation details details p{  
-       font-size: 1.78rem;
+       font-size: 1.68rem;
        margin: 0.9rem 2.56% 0.9rem 2.9%;
    }
    .calculation details details summary{
-       font-size: 1.78rem;
+       font-size: 1.68rem;
    }
    .calculation ul li{
-       font-size: 1.78rem;
+       font-size: 1.68rem;
        max-width: 97%;
        margin: 0.8rem 0.3rem;
    }
    details{
-       font-size: 1.81rem;
+       font-size: 1.71rem;
    }
    details a{
-      font-size: 1.78rem;
+      font-size: 1.68rem;
    }
    
    
