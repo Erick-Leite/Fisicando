@@ -20,7 +20,8 @@
  }
    
     main h2{
-       font-size: 6vw;
+      /* font-size: 6vw; */
+       font-size: 2.472rem;
       /* margin: 0.8rem 0px; */
        margin: 1.942vw 0px;
  }  
@@ -51,6 +52,7 @@
    .perguntas h3{
       /* font-size: 2.3rem; */
        font-size: 5.583vw;
+       font-size: 2.3rem;
        color: #333;
       /* margin: 0.4rem; */
        margin: 0.971vw;
