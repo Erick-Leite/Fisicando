@@ -1,7 +1,7 @@
 @charset 'UFT-8';
 
 
-@media screen and (max-width: 360px){    
+@media screen and (max-width: 300px){    
    header{
       padding: 4.7vw;
  }
@@ -142,7 +142,7 @@
 }
 
 
-@media screen and (min-width: 360px) and (max-width: 415px){
+@media screen and (min-width: 300px) and (max-width: 415px){
 /* Baseado em 412px*/
     header{
       padding: 4.7vw;
