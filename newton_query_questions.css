@@ -19,7 +19,8 @@
  }
    
     main h2{
-       font-size: 6.867vw;
+      /* font-size: 6.867vw; */
+       font-size: 6vw;
        margin-bottom: 0.8rem;
  }  
     main p{
@@ -43,7 +44,8 @@
  } 
    .perguntas h3{
       /* font-size: 2.3rem; */
-       font-size: 6.389vw;
+      /* font-size: 6.389vw; */
+       font-size: 5.583vw;
        color: #333;
        margin: 0.4rem;
  } 
@@ -113,9 +115,7 @@
  }
    
    .display_button{
-     /* font-size: 1.712rem; */
-      font-size: 4.830vw;
-     /* font-size: 4.22vw; */
+      font-size: 4.22vw;
       margin: 0.5rem 1.5rem;
       padding: 0.3rem 0.65rem;
  }
@@ -123,10 +123,9 @@
    .button{
       padding: 0.3rem 0.8rem;
       color: white;
-     /* 19.364 */
      /* font-size: 1.872rem; */
      /* font-size: 5.200vw; */
-      font-size: 5.379vw;
+      font-size: 4.7vw;
       font-weight: bold;
       margin: 0.4rem 0.5rem;
       border-radius: 0.5rem;
