@@ -1,9 +1,150 @@
 @charset 'UFT-8';
 
 
-@media screen and (max-width: 415px){
+@media screen and (max-width: 360px){    
+   header{
+      padding: 4.7vw;
+ }
+    header h1{
+      font-size: 7vw;       
+ }
+ 
+    nav{
+      height: 1.9rem;
+ }
+   
+   main{
+      /* padding: 0.9rem; */
+       padding: 0px 2.1844660194174756vw 4.4rem 2.1844660194174756vw;
+ }
+   
+    main h2{
+      /* font-size: 6.867vw; */
+       font-size: 6vw;
+       margin-bottom: 0.8rem;
+ }  
+    main p{
+       font-size: 4.861vw;
+       margin-bottom: 0.8rem;
+ } 
+    main ul li{
+       font-size: 4.389vw;
+       margin: 0.35rem 1.3rem;
+    
+ } 
+    main ul li:last-child{
+       margin-bottom: 1.0rem;
+ }
+  
+   .perguntas{
+       background-color: #f0f0f0;
+       border: 0.11rem solid #ccc;
+       padding: 0.3rem;
+       margin: 0.3rem;
+ } 
+   .perguntas h3{
+      /* font-size: 2.3rem; */
+      /* font-size: 6.389vw; */
+       font-size: 5.583vw;
+       color: #333;
+       margin: 0.4rem;
+ } 
+   .perguntas p{
+       font-size: 4.667vw;
+       color: #202020;
+       margin: 0.5rem 0.8rem;
+       font-weight: 400;
+       margin: 0.7rem 0.8rem;
+ } 
+   .perguntas ul li{
+       font-size: 4.444vw; 
+ }
+   
+   .respostas p{
+       font-size: 4.667vw;
+       width: 98%;
+ }
+   .calculation{
+       font-size: 4.639vw; 
+ }
+   .calculation div{
+       padding-left: 0.5rem;
+ }
+   .calculation p{
+       font-size: 3.611vw;
+ }
+   .calculation details{
+       margin: 0.8rem 0px;
+ }
+   .calculation summary{
+       font-size: 4.444vw;
+ }
+   .calculation details p{
+       font-size: 4.444vw;
+       max-width: 97%;
+ }
+   .calculation details details summary{
+       font-size: 4.444vw;
+ }
+   .calculation details details p{
+       font-size: 4.444vw; 
+     /* margin: 0.9rem 1.4rem 0.9rem 1.2rem; */
+       margin: 0.9rem 2.56% 0.9rem 2.9%;
+ }
+   .calculation ul{
+       max-width: 100%;
+ }
+   .calculation ul li{
+       font-size: 4.444vw;
+       overflow-wrap: anywhere;
+       max-width: 98%;
+       margin: 0.6rem 0.3rem;
+ }
+   .calculation ul li:last-child{
+       margin-bottom: 1.2rem;
+ }
+   details{
+       font-size: 5vw;
+ }
+   details summary{
+       margin-bottom: 0.4rem;
+ }
+   details a{
+      font-size: 4.722vw;
+      margin: 0.8rem 17px;
+ }
+   
+   .display_button{
+      font-size: 4.22vw;
+      margin: 0.5rem 1.5rem;
+      padding: 0.3rem 0.65rem;
+ }
+ 
+   .button{
+      padding: 0.3rem 0.8rem;
+      color: white;
+     /* font-size: 1.872rem; */
+     /* font-size: 5.200vw; */
+      font-size: 4.7vw;
+      font-weight: bold;
+      margin: 0.4rem 0.5rem;
+      border-radius: 0.5rem;
+ }
+
+    .resultado{
+      font-size: 4.444vw;
+      color: green;
+      font-weight: bold;
+      text-align: center;
+ }
+ 
+    
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 415px){
 /* Baseado em 412px*/
-    header{
+    header{
       padding: 4.7vw;
  }
     header h1{
@@ -12,130 +153,148 @@
     nav{
       height: 1.9rem;
  }
-   
-   main{
-      /* padding: 0.9rem; */
-       padding: 0% 5.3% 10.7% 5.3%;
+   
+   main{
+      /* padding: 0.9rem; */
+       padding: 0px 2.1844660194174756vw 4.4rem 2.1844660194174756vw;
  }
-   
-    main h2{
-       font-size: 1.47%;
-       margin: 0.19% 0px;
- }  
-    main p{
-       font-size: 0.42%;
-       margin-bottom: 0.22%;
+   
+    main h2{
+       font-size: 6vw;
+      /* margin: 0.8rem 0px; */
+       margin: 1.942vw 0px;
+ }  
+    main p{
+       font-size: 1.75rem;
+      /* margin-bottom: 0.8rem; */
+       margin-bottom: 1.942vw;
  } 
-    main ul li{
-       font-size: 0.38%;
-       margin: 0.15% 0.07%;
-    
+    main ul li{
+       font-size: 1.58rem;
+      /* margin: 0.35rem 1.3rem; */
+       margin: 0.850vw 3.155vw;
+    
  } 
-    main ul li:last-child{
-       margin-bottom: 0.29%;
+    main ul li:last-child{
+      /* margin-bottom: 1.0rem; */
+       margin-bottom: 2.427vw;
  }
-  
-   .perguntas{
-       background-color: #f0f0f0;
-       border: 0.11rem solid #ccc;
-       padding: 0.07% 0.07% 0.07% 0.07%;
-       margin: 0.07% 0.07% 0.07% 0.07%;
+  
+   .perguntas{
+       background-color: #f0f0f0;
+       border: 0.11rem solid #ccc;
+      /* padding: 0.3rem; */
+       padding: 0.728vw;
+      /* margin: 0.3rem; */
+       margin: 0.728vw;
  } 
-   .perguntas h3{
-      /* font-size: 2.3rem; */
-       font-size: 1.36%;
-       color: #333;
-       margin: 0.09% 0px;
+   .perguntas h3{
+      /* font-size: 2.3rem; */
+       font-size: 5.583vw;
+       color: #333;
+      /* margin: 0.4rem; */
+       margin: 0.971vw;
  } 
-   .perguntas p{
-       font-size: 0.41%;
-       color: #202020;
-       margin: 0.09% 0.14%;
-       font-weight: 400;
-       margin: 0.15% 0.14%;
+   .perguntas p{
+       font-size: 1.68rem;
+       color: #202020;
+       font-weight: 400;
+      /* margin: 0.7rem 0.9rem;*/
+       margin: 1.699vw 1.942vw;
  } 
-   .perguntas ul li{
-       font-size: 0.39%; 
+   .perguntas ul li{
+       font-size: 1.6rem;
  }
-   
-   .respostas p{
-       font-size: 0.41%;
-       width: 98%;
+   
+   .respostas p{
+       font-size: 1.68rem;
+       width: 98%;
  }
-   .calculation{
-       font-size: 0.41%; 
+   .calculation{
+       font-size: 1.67rem; 
  }
-   .calculation div{
-       padding-left: 0.07rem;
+   .calculation div{
+      /* padding-left: 0.5rem; */
+       padding-left: 1.214vw;
+       
  }
-   .calculation p{
-       font-size: 0.39%;
+   .calculation p{
+       font-size: 1.3rem;
  }
-   .calculation details{
-       margin: 0.19% 0%;
+   .calculation details{
+      /* margin: 0.8rem 0px; */
+       margin: 1.942vw 0px;
  }
-   .calculation summary{
-       font-size: 0.39%;
+   .calculation summary{
+       font-size: 1.6rem;
  }
-   .calculation details p{
-       font-size: 0.39%;
-       max-width: 97%;              
+   .calculation details p{
+       font-size: 1.6rem;
+       max-width: 97%;              
  }
-   .calculation details details summary{
-       font-size: 0.39%;
-   }
-   .calculation details details p{
-       font-size: 0.39%; 
-     /* margin: 0.9rem 1.4rem 0.9rem 1.2rem; */
-       margin: 0.22% 3.41% 0.22% 2.91% ;
+   .calculation details details summary{
+       font-size: 1.6rem;
+   }
+   .calculation details details p{
+       font-size: 1.6rem;
+      /* margin: 0.9rem 2.56% 0.9rem 2.9%; */
+       margin: 2.184vw 2.56% 2.184vw 2.9%;
  }
-   .calculation ul{
-       max-width: 100%;
+   .calculation ul{
+       max-width: 100%;
  }
-   .calculation ul li{
-       font-size: 0.39%;
-       overflow-wrap: anywhere;
-       max-width: 97%;
-       margin: 0.15% 0.07%;
+   .calculation ul li{
+       font-size: 1.6rem;
+       overflow-wrap: anywhere;
+       max-width: 97%;
+      /* margin: 0.6rem 0.3rem; */
+       margin: 1.456vw 0.728vw;
  }
-   .calculation ul li:last-child{
-       margin-bottom: 0.29%;
+   .calculation ul li:last-child{
+      /* margin-bottom: 1.2rem; */
+       margin-bottom: 2.913vw;
  }
-   details{
-       font-size: 0.44%;
+   details{
+       font-size: 1.8rem;
  }
-   details summary{
-       margin-bottom: 0.09%;
+   details summary{
+      /* margin-bottom: 0.4rem; */
+       margin-bottom: 0.971vw;
+ }
    details a{
-      font-size: 0.41%;
-      margin: 0.09% 17px;
+      font-size: 1.7rem;
+     /* margin: 0.8rem 1.7rem; */
+      margin: 1.942vw 4.126vw;
  }
    
    .display_button{
      /* font-size: 17.3864rem; */
-      font-size: 1.03%;
-      margin: 0.09% 1.5rem;
-      padding: 0.07% 0.11rem;
+      font-size: 4.22vw;
+     /* margin: 0.5rem 1.5rem; */
+      margin: 1.214vw 3.641vw;
+      padding: 0.3rem 0.65rem;
  }
  
    .button{
-      padding: 0.07% 0.14rem;
+     /* padding: 0.3rem 0.8rem; */
+      padding: 0.728vw 1.942vw;
       color: white;
-      font-size: 1.16%;
+      font-size: 4.7vw;
       font-weight: bold;
-      margin: 0.09% 0.10rem;
-      border-radius: 0.07rem;
+     /* margin: 0.4rem 0.5rem; */
+      margin: 0.971vw 1.214vw;
+      border-radius: 0.5rem;
  }
 
     .resultado{
-      font-size: 0.42%;
+      font-size: 1.6rem;
       color: green;
       font-weight: bold;
       text-align: center;
  }
  
-
- }
+    
+}
 
 
 
