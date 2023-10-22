@@ -141,7 +141,7 @@
     
 }
 
-
+/*
 @media screen and (min-width: 360px) and (max-width: 415px){
 /* Baseado em 412px*/
     header{
@@ -278,6 +278,145 @@
  
     
 }
+*/
+
+
+
+@media screen and (min-width: 360px) and (max-width: 415px){
+/* Baseado em 412px*/
+    header{
+      padding: 4.7vw;
+ }
+    header h1{
+      font-size: 7vw;       
+ }
+    nav{
+      height: 1.9rem;
+ }
+   
+   main{
+      /* padding: 0.9rem; */
+       padding: 0% 5.3% 10.7% 5.3%;
+ }
+   
+    main h2{
+       font-size: 1.47%;
+       margin: 0.19% 0px;
+ }  
+    main p{
+       font-size: 0.42%;
+       margin-bottom: 0.22%;
+ } 
+    main ul li{
+       font-size: 0.38%;
+       margin: 0.15% 0.07%;
+    
+ } 
+    main ul li:last-child{
+       margin-bottom: 0.29%;
+ }
+  
+   .perguntas{
+       background-color: #f0f0f0;
+       border: 0.11rem solid #ccc;
+       padding: 0.07% 0.07% 0.07% 0.07%;
+       margin: 0.07% 0.07% 0.07% 0.07%;
+ } 
+   .perguntas h3{
+      /* font-size: 2.3rem; */
+       font-size: 1.36%;
+       color: #333;
+       margin: 0.09% 0px;
+ } 
+   .perguntas p{
+       font-size: 0.41%;
+       color: #202020;
+       margin: 0.09% 0.14%;
+       font-weight: 400;
+       margin: 0.15% 0.14%;
+ } 
+   .perguntas ul li{
+       font-size: 0.39%; 
+ }
+   
+   .respostas p{
+       font-size: 0.41%;
+       width: 98%;
+ }
+   .calculation{
+       font-size: 0.41%; 
+ }
+   .calculation div{
+       padding-left: 0.07rem;
+ }
+   .calculation p{
+       font-size: 0.39%;
+ }
+   .calculation details{
+       margin: 0.19% 0%;
+ }
+   .calculation summary{
+       font-size: 0.39%;
+ }
+   .calculation details p{
+       font-size: 0.39%;
+       max-width: 97%;              
+ }
+   .calculation details details summary{
+       font-size: 0.39%;
+   }
+   .calculation details details p{
+       font-size: 0.39%; 
+     /* margin: 0.9rem 1.4rem 0.9rem 1.2rem; */
+       margin: 0.22% 3.41% 0.22% 2.91% ;
+ }
+   .calculation ul{
+       max-width: 100%;
+ }
+   .calculation ul li{
+       font-size: 0.39%;
+       overflow-wrap: anywhere;
+       max-width: 97%;
+       margin: 0.15% 0.07%;
+ }
+   .calculation ul li:last-child{
+       margin-bottom: 0.29%;
+ }
+   details{
+       font-size: 0.44%;
+ }
+   details summary{
+       margin-bottom: 0.09%;
+   details a{
+      font-size: 0.41%;
+      margin: 0.09% 17px;
+ }
+   
+   .display_button{
+     /* font-size: 17.3864rem; */
+      font-size: 1.03%;
+      margin: 0.09% 1.5rem;
+      padding: 0.07% 0.11rem;
+ }
+ 
+   .button{
+      padding: 0.07% 0.14rem;
+      color: white;
+      font-size: 1.16%;
+      font-weight: bold;
+      margin: 0.09% 0.10rem;
+      border-radius: 0.07rem;
+ }
+
+    .resultado{
+      font-size: 0.42%;
+      color: green;
+      font-weight: bold;
+      text-align: center;
+ }
+ 
+
+ }
 
 
 
