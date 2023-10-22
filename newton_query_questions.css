@@ -657,7 +657,7 @@
    .display_button{
    /* font-size: 2.2rem; */
    /* font-size: 2.731vw; */
-    font-size: calc(0.78vw + (1.5rem));
+    font-size: calc(0.78vw + (1.45rem));
     margin: 0.5rem 1.5rem;
     padding: 0.3rem 0.65rem;
  }
@@ -678,7 +678,7 @@
 
  .resultado{
     font-size: 2.1rem;
-    margin: 2px auto;
+    margin: 1px auto;
  }
    
 }
