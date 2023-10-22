@@ -114,17 +114,19 @@
    
    .display_button{
      /* font-size: 1.712rem; */
-      font-size: 4.22vw;
+      font-size: 4.830vw;
+     /* font-size: 4.22vw; */
       margin: 0.5rem 1.5rem;
       padding: 0.3rem 0.65rem;
  }
  
    .button{
-      /* padding: 0.272rem 0.96rem; */
-      padding: 0.37057220708446864vh 2.3300970873786406vw; 
+      padding: 0.3rem 0.8rem;
       color: white;
+     /* 19.364 */
      /* font-size: 1.872rem; */
-      font-size: 5.200vw;
+     /* font-size: 5.200vw; */
+      font-size: 5.379vw;
       font-weight: bold;
       margin: 0.4rem 0.5rem;
       border-radius: 0.5rem;
@@ -253,18 +255,16 @@
  }
    
    .display_button{
-     /* font-size: 1.712rem; */
+     /* font-size: 17.3864rem; */
       font-size: 4.22vw;
       margin: 0.5rem 1.5rem;
       padding: 0.3rem 0.65rem;
  }
  
    .button{
-      /* padding: 0.272rem 0.96rem; */
-      padding: 0.37057220708446864vh 2.3300970873786406vw; 
+      padding: 0.3rem 0.8rem;
       color: white;
-     /* font-size: 1.872rem; */
-      font-size: 4.6vw;
+      font-size: 4.7vw;
       font-weight: bold;
       margin: 0.4rem 0.5rem;
       border-radius: 0.5rem;
