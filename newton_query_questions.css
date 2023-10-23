@@ -595,10 +595,10 @@
  }  
     main p{
       text-align: justify;
-      font-size: 1.8;      
+      font-size: 1.8rem;      
  }
     main ul li{
-    font-size: 1.7rem);    
+    font-size: 1.7rem;    
     margin: 0.6rem 1.2rem;
     
  } 
@@ -630,7 +630,7 @@
        font-size: 1.78rem;
    }
    .calculation details p{
-       font-size: 1.77rem);
+       font-size: 1.77rem;
        overflow-wrap: anywhere;
        max-width: 98%;
    }
