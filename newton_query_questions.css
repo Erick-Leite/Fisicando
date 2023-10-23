@@ -563,9 +563,9 @@
 }
 
 @media screen and (min-width: 1024px){
-   html{
+  /* html{
        font-size: calc(1vw + (62.5% - 10.24));
-   }
+   } */
 
    header{
       padding: 3.21024rem;
@@ -595,12 +595,10 @@
  }  
     main p{
       text-align: justify;
-     /* font-size: 1.7rem; */
-      font-size: max(2.211vw, 1.8rem);
+      font-size: 1.8;      
  }
     main ul li{
-   /* font-size: 1.6rem; */
-    font-size: max(2.081vw, 1.7rem);
+    font-size: 1.7rem);    
     margin: 0.6rem 1.2rem;
     
  } 
@@ -612,66 +610,53 @@
  } 
    .perguntas h3{
     margin: 0.4rem;
-   /* font-size: 2.0rem; */
-    font-size: max(2.601vw, 2.0rem);
+    font-size: 2.0rem;
  } 
    .perguntas p{
     margin: 0.7rem 0.8rem;
-   /* font-size: 1.7rem; */
-    font-size: max(2.211vw, 1.8rem);
+    font-size: 1.8rem;    
  } 
    .perguntas ul li{
-   /* font-size: 1.62rem; */
-    font-size: max(2.107vw, 1.72rem);
+    font-size: 1.72rem;
  }
  
    .respostas p{
-      /* font-size: 1.7rem; */
-       font-size: max(2.211vw, 1.8rem);
+       font-size: 1.8rem;
    }
    .calculation{
-      /* font-size: 1.68rem; */
-       font-size: max(2.185vw, 1.78rem);
+       font-size: 1.78rem;
    }
    .calculation summary{
-      /* font-size: 1.68rem; */
-       font-size: max(2.185vw, 1.78rem);
+       font-size: 1.78rem;
    }
    .calculation details p{
-      /* font-size: 1.67rem; */
-       font-size: max(2.172vw, 1.77rem);
+       font-size: 1.77rem);
        overflow-wrap: anywhere;
        max-width: 98%;
    }
    .calculation details details p{  
-      /* font-size: 1.68rem; */
-       font-size: max(2.185vw, 1.78rem);
+       font-size: 1.78rem;
        margin: 0.9rem 2.56% 0.9rem 2.9%;
    }
    .calculation details details summary{
-      /* font-size: 1.68rem; */
-       font-size: max(2.185vw, 1.78rem);
+       font-size: 1.78rem;
    }
    .calculation ul li{
-      /* font-size: 1.68rem; */
-       font-size: max(2.185vw, 1.78rem);
+       font-size: 1.78rem;
        max-width: 97%;
        margin: 0.8rem 0.3rem;
    }
    details{
-      /* font-size: 1.71rem; */
-       font-size: max(2.224vw, 1.81rem);
+       font-size: 1.81rem;
    }
    details a{
-     /* font-size: 1.68rem; */
-      font-size: max(2.185vw, 1.78rem);
+      font-size: 1.78rem;
    }
    
    
    .display_button{
-   /* font-size: 2.2rem; */
+    font-size: 2.2rem;
    /* font-size: 2.731vw; */
-    font-size: calc(0.78vw + (1.45rem));
     margin: 0.5rem 1.5rem;
     padding: 0.3rem 0.65rem;
  }
@@ -682,9 +667,8 @@
     border: none;
     padding: 0.4rem 0px;
     color: white;
-    font-size: 2.2rem; 
    /* font-size: 2.861vw; */
-    font-size: max(2.861vw, 2.3rem);
+    font-size: 2.3rem;
     font-weight: bold;
     margin: 0.1rem 0.3rem;
     border-radius: 0.5rem;
