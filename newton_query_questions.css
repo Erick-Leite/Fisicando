@@ -563,16 +563,16 @@
 }
 
 @media screen and (min-width: 1024px){
-  /* html{
-       font-size: calc(1vw + (62.5% - 10.24));
-   } */
+   html{
+       font-size: calc(1vw + (62.5% - 10.24px));
+   }
 
    header{
       padding: 3.21024rem;
      /* padding: 3.135vw; */
     }
     header h1{
-      font-size: 3.4rem;
+      font-size: 3.5rem;
      /* font-size: 4.9vw; */
  }
     nav{
@@ -591,7 +591,7 @@
     main h2{
       font-size: 2.7rem;
       font-family: serif;
-      margin: 0.9rem auto;
+      margin: 1.0rem auto;
  }  
     main p{
       text-align: justify;
