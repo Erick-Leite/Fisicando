@@ -562,22 +562,17 @@
    
 }
 
+@media screen and (min-width: 1024px){
+   html{
+       font-size: calc(1vw + (62.5%));
+   }
 
-/*
-@media(min-width:980px){
-    main{
-        max-width: 760px;
-    }
-}*/
-
-
-@media screen and (min-width: 1024px) and (max-width: 1440px){   
    header{
-     /* padding: 1.881rem; */
-      padding: 3.135vw;
+      padding: 3.21024rem;
+     /* padding: 3.135vw; */
     }
     header h1{
-      font-size: 3.2rem;
+      font-size: 3.4rem;
      /* font-size: 4.9vw; */
  }
     nav{
@@ -594,16 +589,18 @@
       max-width: 80.624vw;
    }   
     main h2{
-      font-size: 2.5rem;
+      font-size: 2.7rem;
       font-family: serif;
       margin: 0.9rem auto;
  }  
     main p{
       text-align: justify;
-      font-size: 1.8rem;
+     /* font-size: 1.7rem; */
+      font-size: max(2.211vw, 1.8rem);
  }
     main ul li{
-    font-size: 1.7rem;
+   /* font-size: 1.6rem; */
+    font-size: max(2.081vw, 1.7rem);
     margin: 0.6rem 1.2rem;
     
  } 
@@ -615,52 +612,66 @@
  } 
    .perguntas h3{
     margin: 0.4rem;
-    font-size: 2.1rem;
+   /* font-size: 2.0rem; */
+    font-size: max(2.601vw, 2.0rem);
  } 
    .perguntas p{
     margin: 0.7rem 0.8rem;
-    font-size: 1.8rem;
+   /* font-size: 1.7rem; */
+    font-size: max(2.211vw, 1.8rem);
  } 
    .perguntas ul li{
-    font-size: 1.72rem;
+   /* font-size: 1.62rem; */
+    font-size: max(2.107vw, 1.72rem);
  }
  
    .respostas p{
-       font-size: 1.8rem;
+      /* font-size: 1.7rem; */
+       font-size: max(2.211vw, 1.8rem);
    }
    .calculation{
-       font-size: 1.78rem;
+      /* font-size: 1.68rem; */
+       font-size: max(2.185vw, 1.78rem);
    }
    .calculation summary{
-       font-size: 1.78rem;
+      /* font-size: 1.68rem; */
+       font-size: max(2.185vw, 1.78rem);
    }
    .calculation details p{
-       font-size: 1.77rem;
+      /* font-size: 1.67rem; */
+       font-size: max(2.172vw, 1.77rem);
        overflow-wrap: anywhere;
        max-width: 98%;
    }
    .calculation details details p{  
-       font-size: 1.78rem;
+      /* font-size: 1.68rem; */
+       font-size: max(2.185vw, 1.78rem);
        margin: 0.9rem 2.56% 0.9rem 2.9%;
    }
    .calculation details details summary{
-       font-size: 1.78rem;
+      /* font-size: 1.68rem; */
+       font-size: max(2.185vw, 1.78rem);
    }
    .calculation ul li{
-       font-size: 1.78rem;
+      /* font-size: 1.68rem; */
+       font-size: max(2.185vw, 1.78rem);
        max-width: 97%;
        margin: 0.8rem 0.3rem;
    }
    details{
-       font-size: 1.81rem;
+      /* font-size: 1.71rem; */
+       font-size: max(2.224vw, 1.81rem);
    }
    details a{
-      font-size: 1.78rem;
+     /* font-size: 1.68rem; */
+      font-size: max(2.185vw, 1.78rem);
    }
    
    
    .display_button{
-    font-size: 2.2rem;
+   /* font-size: 2.2rem; */
+   /* font-size: 2.731vw; */
+    font-size: calc(0.78vw + (1.45rem));
     margin: 0.5rem 1.5rem;
     padding: 0.3rem 0.65rem;
  }
@@ -671,400 +682,17 @@
     border: none;
     padding: 0.4rem 0px;
     color: white;
-    font-size: 2.3rem;
+    font-size: 2.2rem; 
+   /* font-size: 2.861vw; */
+    font-size: max(2.861vw, 2.3rem);
     font-weight: bold;
     margin: 0.1rem 0.3rem;
     border-radius: 0.5rem;
  }
 
  .resultado{
-    font-size: 2.0rem;
+    font-size: 2.1rem;
+    margin: 1px auto;
  }
    
-}
-
-
-
-@media(min-width:1440px){
-    header{
-      padding: 30px;
- }
-    
-    header h1{
-      font-size: 2.2em;
- }
-   
-   main{
-      display: flex;
-      flex-direction: column;
-      max-width: 900px;
- }   
-    main h2{
-      font-size: 1.9em;
-      font-family: serif;
-      margin: 8px auto;
- }  
-    main p{
-      text-align: justify;
-      font-size: 1.3em;
- }
-    main ul li{
-    font-size: 1.2em;
-    margin: 5px 12px;
-    
- } 
-  
-   .perguntas{
-    border: 1.2px solid #ccc;
-    box-shadow: 0px 0px 2.5px #0000008a;
-    
- } 
-   .perguntas h3{
-    margin: 4px 4px;
-    font-size: 1.5em;
- } 
-   .perguntas p{
-    margin: 7px 8px;
-    font-size: 1.3em;
- } 
-   .perguntas ul li{
-    font-size: 1.2em;
- }
- 
-   .respostas p{
-       font-size: 1.3em;
- }
-   .calculation{
-       font-size: 1.2em;
- }
-   .calculation summary{
-       font-size: 1.1em;
-   }
-   .calculation ul li{
-       font-size: 1.1em;
-   }
-   details{
-       font-size: 1.3em;
- }
-   details a{
-      font-size: 1.2em;
- }
-   
-   
-   .display_button{
-    font-size: 1.4em;
-    margin: 5px 15px;
-    padding: 0.14em 0.5em;
- }
- 
- 
- .button{
-    background-color: gray;
-    border: none;
-    padding: 0.18em 0.7em;
-    color: white;
-    font-size: 1.5em;
-    font-weight: bold;
-    margin: 4px 5px;
-    border-radius: 5px;
- }
-
- .resultado{
-    font-size: 1.3em;
- }
-    
-}
-
-
-@media(min-width:1536px){
-    header{
-      padding: 30px;
- }
-    
-    header h1{
-      font-size: 2.2em;
- }
-   
-   main{
-      display: flex;
-      flex-direction: column;
-      max-width: 900px;
- }   
-    main h2{
-      font-size: 1.95em;
-      font-family: serif;
-      margin: 8px auto;
- }  
-    main p{
-      text-align: justify;
-      font-size: 1.35em;
- }
-    main ul li{
-    font-size: 1.25em;
-    margin: 5px 12px;
-    
- } 
-  
-   .perguntas{
-    border: 1.2px solid #ccc;
-    box-shadow: 0px 0px 2.5px #0000008a;
-    
- } 
-   .perguntas h3{
-    margin: 4px 4px;
-    font-size: 1.55em;
- } 
-   .perguntas p{
-    margin: 7px 8px;
-    font-size: 1.35em;
- } 
-   .perguntas ul li{
-    font-size: 1.25em;
- }
- 
-   .respostas p{
-       font-size: 1.35em;
- }
-   .calculation{
-       font-size: 1.25em;
- }
-   .calculation summary{
-       font-size: 1.5em;
-   }
-   .calculation ul li{
-       font-size: 1.5em;
-   }
-   details{
-       font-size: 1.35em;
- }
-   details a{
-      font-size: 1.25em;
- }
-   
-   
-   .display_button{
-    font-size: 1.45em;
-    margin: 5px 15px;
-    padding: 0.14em 0.5em;
- }
- 
- 
- .button{
-    background-color: gray;
-    border: none;
-    padding: 0.18em 0.7em;
-    color: white;
-    font-size: 1.55em;
-    font-weight: bold;
-    margin: 4px 5px;
-    border-radius: 5px;
- }
-
- .resultado{
-    font-size: 1.35em;
- }
-    
-}
-
-
-@media(min-width:1600px){
-    header{
-      padding: 30px;
- }
-    
-    header h1{
-      font-size: 2.25em;
- }
-   
-   main{
-      display: flex;
-      flex-direction: column;
-      max-width: 950px;
- }   
-    main h2{
-      font-size: 2em;
-      font-family: serif;
-      margin: 8px auto;
- }  
-    main p{
-      text-align: justify;
-      font-size: 1.4em;
- }
-    main ul li{
-    font-size: 1.3em;
-    margin: 5px 12px;
-    
- } 
-  
-   .perguntas{
-    border: 1.2px solid #ccc;
-    box-shadow: 0px 0px 2.5px #0000008a;
-    
- } 
-   .perguntas h3{
-    margin: 4px 4px;
-    font-size: 1.6em;
- } 
-   .perguntas p{
-    margin: 7px 8px;
-    font-size: 1.4em;
- } 
-   .perguntas ul li{
-    font-size: 1.3em;
- }
- 
-   .respostas p{
-       font-size: 1.4em;
- }
-   .calculation{
-       font-size: 1.3em;
- }
-   .calculation summary{
-       font-size: 1em;
-   }
-   .calculation ul li{
-       font-size: 1em;
-   }
-   details{
-       font-size: 1.5em;
- }
-   details a{
-      font-size: 1.3em;
- }
-   
-   
-   .display_button{
-    font-size: 1.5em;
-    margin: 5px 15px;
-    padding: 0.14em 0.5em;
- }
- 
- 
- .button{
-    background-color: gray;
-    border: none;
-    padding: 0.18em 0.7em;
-    color: white;
-    font-size: 1.6em;
-    font-weight: bold;
-    margin: 4px 5px;
-    border-radius: 5px;
- }
-
- .resultado{
-    font-size: 1.4em;
- }
-    
-}
-
-
-@media(min-width:1920px){
-    header{
-      padding: 30px;
- }
-    
-    header h1{
-      font-size: 2.6em;
- }
-   
-   main{
-      display: flex;
-      flex-direction: column;
-      max-width: 1200px;
- }   
-    main h2{
-      font-size: 2.3em;
-      font-family: serif;
-      margin: 8px auto;
- }  
-    main p{
-      text-align: justify;
-      font-size: 1.7em;
- }
-    main ul li{
-    font-size: 1.6em;
-    margin: 5px 12px;
-    
- } 
-  
-   .perguntas{
-    border: 1.2px solid #ccc;
-    box-shadow: 0px 0px 2.5px #0000008a;
-    
- } 
-   .perguntas h3{
-    margin: 4px 4px;
-    font-size: 1.9em;
- } 
-   .perguntas p{
-    margin: 7px 8px;
-    font-size: 1.7em;
- } 
-   .perguntas ul li{
-    font-size: 1.6em;
- }
- 
-   .respostas p{
-       font-size: 1.7em;
- }
-   .calculation{
-       font-size: 1.6em;
- }
-   .calculation div{
-       margin-left: 5%;
-   }
-   .calculation summary{
-       font-size: 0.6em;
-   }
-   .calculation ul{
-       display: block;
-       margin: auto auto;
-       max-width: 80%;
-   }
-   .calculation ul li{
-       font-size: 1em;
-       margin: 10px auto;
-   }
-   .calculation ul li:last-child{
-       margin-bottom: 12px;
-   }
-   .calculation details p{
-       font-size: 0.5em;
-   }
-   .calculation details details summary{
-       font-size: 0.2em;
-   }
-   .calculation details details p{
-       font-size: 0.2em;
-   }
-   details{
-       font-size: 1.9em;
- }
-   details a{
-      font-size: 1.1em;
- }
-   
-   
-   .display_button{
-    font-size: 1.8em;
-    margin: 5px 15px;
-    padding: 0.14em 0.5em;
- }
- 
- 
- .button{
-    background-color: gray;
-    border: none;
-    padding: 0.18em 0.7em;
-    color: white;
-    font-size: 1.9em;
-    font-weight: bold;
-    margin: 4px 5px;
-    border-radius: 5px;
- }
-
- .resultado{
-    font-size: 1.7em;
- }
-    
 }
