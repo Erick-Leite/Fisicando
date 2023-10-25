@@ -19,71 +19,69 @@ html{
 
 header{
     background-color: #f0f0f0;
-    /*padding: 20px;*/
-    padding: 1.2em;
+    padding: 2.0rem;
     text-align: center;
 }
 header h1{
     color: #333;
-    /*font-size: 2em;*/
+    font-size: 2.8rem;
+    font-weight: 600;
     font-family: serif;
 }
 
 
 nav{
    display: block;
+   height: 1.9rem;
    background-color: #333;
 }
 
 
 main{
     margin: 0 auto;
-    padding: 0px 2.1844660194174756vw 4.4rem 2.1844660194174756vw;
-    max-width: 600px;
+    padding: 0px 0.9rem 4.4rem 0.9rem;
 }
 main h2{
-    font-size: 1.55em;
+    font-size: 2.472rem;
     color: rgba(0,0,0,0.9);
-    text-indent: 3.1px;
-    font-size: 1.55em;
-    margin-bottom: 8px;
+    text-indent: 0.31rem;
+    margin: 1.2rem 0px;
 }
 main p{
-    font-size: 1.03em;
+    font-size: 1.75rem;
     color: #666;
-    font-size: 1.03em;
-    margin-bottom: 8px;
+    margin-bottom: 1.2rem;
+}
+main ul{
+    padding: 0px 1.0rem 0px 1.8rem;
+    margin: 1.2rem 0px;
 }
 main ul li{
-    font-size: 0.91em;
+    font-size: 1.58rem;
     color: rgba(0,0,0,0.9);
-    margin: 3.5px 12px;
+    margin: 0.3502rem 1.29986rem;
     
-}
-main ul li:last-child{
-    margin-bottom: 12px;
 }
 
 
 .perguntas{
     background-color: #f0f0f0;
-    border: 1.1px solid #ccc;
-    padding: 3px;
-    margin: 3px;
-    box-shadow: 0px 0px 2px #0000008a;
+    border: 0.11rem solid #ccc;
+    padding: 0.299936rem;
+    margin: 0.299936rem 0;
+    box-shadow: 0px 0px 0.2rem #0000008a;
 }
 .perguntas h3{
-    font-size: 1.2em;
+    font-size: 2.3rem;
     color: #333;
-    margin: 4px 4px;
+    margin: 0.400052rem;
 }
 
 .perguntas p{
-    font-size: 0.95em;
+    font-size: 1.68rem;
     color: #202020;
-    margin: 5px 8px;
     font-weight: 400;
-    margin: 7px 8px;
+    margin: 0.699988rem 0.800104rem;
 }
 .perguntas p strong{
     font-weight: 500;
@@ -91,66 +89,74 @@ main ul li:last-child{
 }
 .options{
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .perguntas ul li{
-    font-size: 0.9em;
-    margin-bottom: 5px;
+    font-size: 2.0rem;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
 }
 
 
 
 input[type=radio]{
-    margin-right: 5px;
+    margin-right: 0.5rem;
 }
 
 
 .respostas{
     display: none;
-    padding: 8px;
+    padding: 0.8rem;
 }
 .respostas p{
-    font-size: 0.95em;
+    font-size: 1.68rem;
+   /* width: 98%; */
     color: #3e3e3e;
     font-weight: 400;
 }
 .calculation{
-    font-size: 0.95em;
+    font-size: 1.67rem;
     background-color: white;
-    padding: 5px;
+    padding: 0.5rem;
     color: #181818;
-    border-radius: 7px;
+    border-radius: 0.7rem;
 }
 .calculation div{
-    padding-left: 5px;
+    padding-left: 0.500168rem;
    }
 .calculation p{
-    font-size: 0.85em;
+    font-size: 1.3rem;
    }
 .calculation details{
-    margin: 8px 0px;
+    margin: 0.800104rem 0;
    }
 .calculation summary{
-    font-size: 0.895em;
+    font-size: 1.6rem;
    }
 .calculation details p{
-    font-size: 0.93em;
+    font-size: 1.6rem;
    }
 .calculation details details summary{
-    font-size: 0.82em;
+    font-size: 1.6rem;
    }
+.calculation details details p{
+       font-size: 1.6rem;
+       margin: 0.899808rem 2.56% 0.899808rem 2.9%;
+ }
 .calculation ul{
-    max-width: 100%;
     list-style: none;
+    padding-left: 1.834rem;
 }
 .calculation ul li{
-    font-size: 0.9em;
+    font-size: 1.6rem;
     overflow-wrap: anywhere;
-    max-width: 98%;
-    margin: 6px 3px;   
+   /* max-width: 98%; */
+    margin: 0.60rem 0.30rem;
     color: #181818;
 }
 .calculation ul li:last-child{
-       margin-bottom: 12px;
+       margin-bottom: 1.200156rem;
    }
 .calculation ul strong{
     font-style: italic;
@@ -161,20 +167,18 @@ input[type=radio]{
     color: rgba(0,0,0,0.7);
 }
 .calculation details summary{
-    margin: 5px auto;
+    margin: 0.5rem auto;
     font-weight: 500;
     color: rgba(0,0,0,0.8);
 }
-details{
-       font-size: 1.1em;
-}
-   details summary{
-       margin-bottom: 4px;
+details summary{
+    font-size: 1.8rem;
+   /* margin-bottom: 0.971vw; */
 }
 
 details a{
-    font-size: 0.95em;
-    margin: 8px 17px;
+    font-size: 1.7rem;
+    margin: 0.7416rem 1.6999rem;
     text-decoration: none;
     color: #0003ffe5;
     cursor: pointer;
@@ -191,9 +195,9 @@ details a{
 
 
 .display_button{
-    font-size: 1.07em;
-    margin: 5px 15px;
-    padding: 0.12em 0.4em;
+    font-size: 1.73864rem;
+    margin: 0.5rem 1.5rem;
+    padding: 0.25rem 0.65rem;
     cursor: pointer;
     background-color: #666;
     font-weight: bold;
@@ -212,19 +216,21 @@ details a{
 }
 
 .button{
-    font-size: 1.17em;
-    padding: 0.17em 0.6em;
+   /* font-size: 4.7vw; */
+    font-size: 1.9364rem;
     color: white;
     font-weight: bold;
+    padding: 0.25rem 0.75rem;
     margin: 4px 5px;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     background-color: gray;
     cursor: pointer;
     border: none;
 }
 
 .resultado{
-    font-size: 1em;
+   /* font-size: 1.6rem; */
+    font-size: calc(0.9708vw + (1.2rem));
     color: green;
     font-weight: bold;
     text-align: center;
