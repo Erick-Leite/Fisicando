@@ -2,11 +2,13 @@
 
 @media screen and (min-width: 412px){
     .perguntas .source_for_bug{
-    font-size: calc(0.775vw + (1.3607rem));
+        font-size: calc(0.775vw + (1.3607rem));
  }
+ 
 }
 
-@media screen and (min-width: 600px){
+
+@media screen and (min-width: 600px){   
     main{
         display: grid;
  }    
@@ -15,6 +17,7 @@
         text-indent: none;
  }
     main ul{
+        padding: 0;
         margin: 1.2rem 0px;
         margin-left: 0.05rem;
  }
@@ -27,6 +30,7 @@
  }
     
 }
+
 
 @media screen and (min-width: 980px){
     .perguntas .source_for_bug{
