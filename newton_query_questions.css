@@ -11,6 +11,7 @@
 @media screen and (min-width: 600px){   
     main{
         display: grid;
+        max-width: 72.0rem;
  }    
     main h2{
         margin: 1.2rem auto;
