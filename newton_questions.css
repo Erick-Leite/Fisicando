@@ -38,7 +38,7 @@ nav{
 
 
 main{
-    margin: 0 auto;
+  /*  margin: 0 auto; */
     padding: 0px 0.9rem 4.4rem 0.9rem;
 }
 main h2{
@@ -141,8 +141,8 @@ input[type=radio]{
     font-size: 1.6rem;
    }
 .calculation details details p{
-       font-size: 1.6rem;
-       margin: 0.899808rem 2.56% 0.899808rem 2.9%;
+    font-size: 1.6rem;
+    margin: 0.899808rem 2.56% 0.899808rem 2.9%;
  }
 .calculation ul{
     list-style: none;
@@ -156,7 +156,7 @@ input[type=radio]{
     color: #181818;
 }
 .calculation ul li:last-child{
-       margin-bottom: 1.200156rem;
+    margin-bottom: 1.200156rem;
    }
 .calculation ul strong{
     font-style: italic;
