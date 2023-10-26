@@ -9,9 +9,9 @@
 
 
 @media screen and (min-width: 600px){   
-    main{
+   /* main{
         display: grid;
- }    
+ } */
     main h2{
         margin: 1.2rem auto;
         text-indent: none;
