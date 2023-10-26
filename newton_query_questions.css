@@ -11,7 +11,6 @@
 @media screen and (min-width: 600px){   
     main{
         display: grid;
-        max-width: 72.0rem;
  }    
     main h2{
         margin: 1.2rem auto;
@@ -34,10 +33,6 @@
 
 
 @media screen and (min-width: 980px){
-    main{
-        max-width: 70.3125%;
-    }
-
     .perguntas .source_for_bug{
         font-size: 2.12242rem;
  }
