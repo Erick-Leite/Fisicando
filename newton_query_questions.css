@@ -34,6 +34,10 @@
 
 
 @media screen and (min-width: 980px){
+    main{
+        max-width: 70.3125%;
+    }
+
     .perguntas .source_for_bug{
         font-size: 2.12242rem;
  }
