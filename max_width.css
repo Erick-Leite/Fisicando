@@ -1,0 +1,48 @@
+@charset 'UTF-8';
+
+@media screen and (max-width: 576px){
+.container{
+    max-width: 540px;
+  }
+}
+ 
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+.container{
+    max-width: 93.75vw;
+  }        
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 980px){
+.container{
+    max-width: 72.0rem;
+  }        
+}
+
+
+@media screen and (min-width: 980px) and (max-width: 992px){
+.container{
+    max-width: 73.469vw;
+  }        
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+.container{
+    max-width: 80vw;
+  }        
+}
+
+ 
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+.container{
+    max-width: 81.429vw;
+ }        
+}
+
+@media screen and (min-width: 1400px){
+.container{
+    max-width: 81.429vw;
+ }        
+}
