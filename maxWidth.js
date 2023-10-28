@@ -12,7 +12,7 @@ if(width < 576){
 }else if(width >= 992 && width < 1200){
     container.style.maxWidth=`75vw`;
 }else if(width >= 1200 && width < 1400){
-    container.style.maxWidth=`10.50rem`;
+    container.style.maxWidth=`105.0rem`;
 }else if(width >= 1400){
     container.style.maxWidth=`73vw`;
 }
@@ -30,7 +30,7 @@ const maxWidth = () => {
 }else if(width >= 992 && width < 1200){
     container.style.maxWidth=`75vw`;
 }else if(width >= 1200 && width < 1400){
-    container.style.maxWidth=`10.50rem`;
+    container.style.maxWidth=`105.0rem`;
 }else if(width >= 1400){
     container.style.maxWidth=`73vw`;
 }
