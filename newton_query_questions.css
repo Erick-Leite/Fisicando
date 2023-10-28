@@ -7,7 +7,6 @@
  
 }
 
-
 @media screen and (min-width: 600px){   
     main{
         display: grid;
@@ -33,6 +32,10 @@
 
 
 @media screen and (min-width: 980px){
+    html{
+        font-size: calc(61.7% + (0.031067961165048546vw));
+    }
+
     .perguntas .source_for_bug{
         font-size: 2.12242rem;
  }
