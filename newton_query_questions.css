@@ -33,7 +33,7 @@
 
 @media screen and (min-width: 980px){
     html{
-        font-size: calc(61.7% + (0.031067961165048546vw));
+        font-size: calc(61.5% + (0.016vw));
     }
 
     .perguntas .source_for_bug{
