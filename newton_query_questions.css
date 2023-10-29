@@ -2,7 +2,9 @@
 
 @media screen and (min-width: 412px){
     .questions .source_for_bug{
-        font-size: calc(0.775vw + (1.3607rem));
+       /* font-size: calc(0.775vw + (1.3607rem)); */
+        font-size: max(calc(0.775vw + (1.3607rem)), 2.12242rem);
+        
  }
  
 }
@@ -39,11 +41,7 @@
     html{
         font-size: calc(46.875% + (0.2552vw));
     }
-
-    .questions .source_for_bug{
-        font-size: 2.12242rem;
- }
- 
+    
     .result{
         font-size: 1.9364rem;
     }
