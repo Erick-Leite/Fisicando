@@ -11,10 +11,8 @@ if(width < 576){
     container.style.maxWidth=`73.469vw`;
 }else if(width >= 992 && width < 1200){
     container.style.maxWidth=`75vw`;
-}else if(width >= 1200 && width < 1400){
-    container.style.maxWidth=`105.0rem`;
-}else if(width >= 1400){
-    container.style.maxWidth=`73vw`;
+}else if(width >= 1200){
+    container.style.maxWidth=`90.0rem`;
 }
 
 
@@ -27,12 +25,10 @@ const maxWidth = () => {
     container.style.maxWidth=`72.0rem`;
 }else if(width >= 980 && width < 992){
     container.style.maxWidth=`73.469vw`;
-}else if(width >= 992 && width < 1200){
+}else if(width >= 992 && width < 1400){
     container.style.maxWidth=`75vw`;
-}else if(width >= 1200 && width < 1400){
-    container.style.maxWidth=`105.0rem`;
-}else if(width >= 1400){
-    container.style.maxWidth=`73vw`;
+}else if(width >= 1200){
+    container.style.maxWidth=`90.0rem`;
 }
 
 }
