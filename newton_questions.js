@@ -3,8 +3,8 @@ const answers = ["c1", "a2", "b3", "d4", "c5", "c6", "b7", "e8", "a9", "b10"]
 let score = 0;
 
 const submit = document.getElementById("submit");
-const perguntas = document.querySelectorAll(".perguntas");
-const resultado = document.getElementById("resultado");
+const questions = document.querySelectorAll(".questions");
+const resultado = document.getElementById("result");
 const restart = document.getElementById("restart");
 const display_button = [...document.querySelectorAll(".display_button")];
 var radios = document.querySelectorAll("input[type=radio]");
@@ -33,7 +33,7 @@ radios[i].classList.add("incorrect_answers");
       
   }
     
- resultado.innerHTML = `Você acertou ${score} de ${perguntas.length} perguntas`
+ resultado.innerHTML = `Você acertou ${score} de ${questions.length} questions`
 
  
  submit.classList.add("ocultar");
