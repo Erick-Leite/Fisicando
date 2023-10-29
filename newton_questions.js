@@ -1,4 +1,4 @@
-const answers = ["c1", "a2", "b3", "d4", "c5", "c6", "b7", "e8", "a9", "b10"]
+const alternative_answers = ["c1", "a2", "b3", "d4", "c5", "c6", "b7", "e8", "a9", "b10"]
 
 let score = 0;
 
@@ -8,7 +8,7 @@ const resultado = document.getElementById("result");
 const restart = document.getElementById("restart");
 const display_button = [...document.querySelectorAll(".display_button")];
 var radios = document.querySelectorAll("input[type=radio]");
-const respostas = [...document.getElementsByClassName("respostas")];
+const answers = [...document.getElementsByClassName("answers")];
 
 
 function checkAnswer(){
@@ -19,7 +19,7 @@ function checkAnswer(){
     if(radio.checked){
       let userAnswer = radio.value;
       
-      let correctAnswer = answers[Math.floor(i / 5)];
+      let correctAnswer = alternative_answers[Math.floor(i / 5)];
       
       
       if(userAnswer === correctAnswer){       
@@ -36,15 +36,15 @@ radios[i].classList.add("incorrect_answers");
  resultado.innerHTML = `Você acertou ${score} de ${questions.length} questions`
 
  
- submit.classList.add("ocultar");
- resultado.classList.remove("ocultar");
- restart.classList.remove("ocultar");
+ submit.classList.add("hidden");
+ resultado.classList.remove("hidden");
+ restart.classList.remove("hidden");
 
  for(let i=0; i<radios.length; i++){
      let radio = radios[i];
      if(radio.checked){
         let index = Math.floor(i / 5);
-        display_button[index].classList.remove("ocultar")
+        display_button[index].classList.remove("hidden")
         
      }
          
@@ -62,9 +62,9 @@ function restartQuiz(){
   }
   
   score = 0;
-  resultado.classList.add("ocultar");
-  restart.classList.add("ocultar");
-  submit.classList.remove("ocultar");
+  resultado.classList.add("hidden");
+  restart.classList.add("hidden");
+  submit.classList.remove("hidden");
   
   for(let i=0; i<display_button.length; i++){
     
@@ -72,17 +72,17 @@ function restartQuiz(){
 
 display_button[i].textContent = `Mostrar explicação`;
 
-respostas[i].classList.add("ocultar")
+answers[i].classList.add("hidden")
 
     }
  
-    display_button[i].classList.add("ocultar")
+    display_button[i].classList.add("hidden")
     
         
   }
 
-for(let i=0; i<respostas.length; i++){
-    respostas[i].classList.remove("exibir");
+for(let i=0; i<answers.length; i++){
+    answers[i].classList.remove("show");
     
 }
 
@@ -92,8 +92,8 @@ for(let i=0; i<respostas.length; i++){
 
 
 function show_hide(index){
-  respostas[index].classList.toggle("ocultar");
-respostas[index].classList.toggle("exibir");
+  answers[index].classList.toggle("hidden");
+answers[index].classList.toggle("show");
 
  if(display_button[index].textContent === "Mostrar explicação"){
     display_button[index].textContent = "Ocultar explicação"

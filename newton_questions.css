@@ -106,11 +106,11 @@ input[type=radio]{
 }
 
 
-.respostas{
+.answers{
     display: none;
     padding: 0.8rem;
 }
-.respostas p{
+.answers p{
     font-size: 1.68rem;
    /* width: 98%; */
     color: #3e3e3e;
@@ -209,10 +209,10 @@ details a{
     background-color: #555;
 }
 
-.exibir{
+.show{
     display: block;
 }
-.ocultar{
+.hidden{
     display: none;
 }
 
