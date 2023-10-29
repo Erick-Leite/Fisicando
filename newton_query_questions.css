@@ -7,7 +7,14 @@
  
 }
 
-@media screen and (min-width: 600px){   
+@media screen and (min-width: 600px){
+    header{       
+       padding: calc(1.9rem + (0.167vw));
+ }
+    header h1{
+       font-size: calc(2.632rem + (0.280vw));
+ }
+
     main{
         display: grid;
  }
