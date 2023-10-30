@@ -93,7 +93,7 @@ main ul li{
     margin: 0;
     padding: 0;
 }
-.questions ul li{
+.options li label{
     font-size: 2.0rem;
     margin-right: 0;
     margin-bottom: 0.5rem;
@@ -174,7 +174,6 @@ input[type=radio]{
 }
 details summary{
     font-size: 1.8rem;
-   /* margin-bottom: 0.971vw; */
 }
 
 details a{

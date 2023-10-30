@@ -2,16 +2,14 @@
 
 @media screen and (min-width: 412px){
     .questions .source_for_bug{
-       /* font-size: calc(0.775vw + (1.3607rem)); */
-        font-size: max(calc(0.775vw + (1.3607rem)), 2.12242rem);
-        
- }
- 
+        font-size: calc(1.36084704rem + (0.7746431067961165vw));
+  }
 }
+
 
 @media screen and (min-width: 600px){
     header h1{
-       font-size: calc(2.66rem + (0.233vw));
+        font-size: calc(2.66rem + (0.233vw));
  }
 
     main{
@@ -38,12 +36,16 @@
 
 
 @media screen and (min-width: 980px){
-    html{
+  /*  html{
         font-size: calc(46.875% + (0.2552vw));
-    }
+    } */
+    
+    .questions .source_for_bug{
+        font-size: 2.12rem;
+  } 
     
     .result{
         font-size: 1.9364rem;
-    }
+  }
     
 }
