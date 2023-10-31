@@ -1,5 +1,16 @@
 @charset 'UFT-8';
 
+@media screen and(max-width: 414px){
+    .display_button{
+        font-size: 4.22vw;
+    }
+    
+    .button{
+        font-size: 4.7vw;
+    }
+    
+}
+
 
 @media screen and (min-width: 600px){
     header h1{
@@ -31,9 +42,6 @@
 
 
 @media screen and (min-width: 980px){
-  /*  html{
-        font-size: calc(46.875% + (0.2552vw));
-    } */
     
     .result{
         font-size: 1.9364rem;
