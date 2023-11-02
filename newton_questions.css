@@ -196,7 +196,7 @@ details a{
 }
 
 
-.display_button{
+.explanation_button{
     font-size: 1.73864rem;
     margin: 0.5rem 1.5rem;
     padding: 0.25rem 0.65rem;
@@ -206,7 +206,7 @@ details a{
     color: #f4f4f4;
     border: none;
 }
-.display_button:hover{
+.explanation_button:hover{
     background-color: #555;
 }
 
