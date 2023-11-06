@@ -9,7 +9,8 @@ const questions = document.querySelectorAll(".questions");
 const result = document.getElementById("result");
 const restart = document.getElementById("restart");
 const explanation_button = [...document.querySelectorAll(".explanation_button")];
-var alternatives = document.querySelectorAll("input[type=radio]");
+const input_of_alternatives = document.querySelectorAll("input[type=radio]");
+const alternative = document.querySelectorAll(".alternative");
 const answers = [...document.getElementsByClassName("answers")];
 
 
@@ -18,7 +19,7 @@ explanation_button.forEach((button, index) => {
 });
 
 
-restart.addEventListener("click", () => {restartQuiz(alternatives, score, result, restart, all_hits, explanation_button, answers)});
+restart.addEventListener("click", () => {restartQuiz(input_of_alternatives, alternative, score, result, restart, all_hits, explanation_button, answers)});
 
 
-all_hits.addEventListener("click", () => {checkAnswer(alternatives, alternatives_answers, result, questions, score, all_hits, restart, explanation_button)});
+all_hits.addEventListener("click", () => {checkAnswer(input_of_alternatives, alternative, alternatives_answers, result, questions, score, all_hits, restart, explanation_button)});
