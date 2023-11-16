@@ -39,7 +39,7 @@ nav{
 
 
 main{
-   /* margin: 0 auto; */
+   /* margin: 0 auto; */   
     padding: 0px 0.9rem 4.4rem 0.9rem;
    
 }
@@ -122,6 +122,26 @@ input[type="radio"]:checked + .alternative{
     color: white;
 }
 
+.popup{
+    display: inline-block;
+    position: absolute;
+    background: linear-gradient(270deg, gray, #A5A5A5);
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.4rem;
+    margin-right: 1.0rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: white;
+}
+.popup a{
+    color: white;
+}
+.close{
+    display: inline-block;
+    padding: 0 0.3rem;
+    font-weight: bold;
+    background: rgba(255,0,0,0.7);
+}
 
 .answers{
     display: none;
@@ -134,7 +154,7 @@ input[type="radio"]:checked + .alternative{
     font-weight: 400;
 }
 .calculation{
-    font-size: 1.6rem;
+    font-size: 1.59rem;
     background-color: white;
     padding: 0.5rem;
     color: #181818;
@@ -143,6 +163,10 @@ input[type="radio"]:checked + .alternative{
 .calculation div{
     padding-left: 0.500168rem;
    }
+.calculation strong{
+    color: rgba(0,0,0,0.7);
+    font-weight: 500;
+}
 .calculation p{
     font-size: 1.3rem;
    }
